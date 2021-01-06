@@ -44,19 +44,19 @@ $$\frac{x^2}{a_{i}^2}+\frac{y^2}{b_{i}^2}=1$$
 
 As above, $\delta=\sqrt{a^4-a^2b^2+b^4}$. Also, the following explicit expressions were given for the axes of the $N=3$ Caustic [@garcia2019-incenter]:
 
-$$a_c=\frac{a\left(\delta-{b}^{2}\right)}{c^2},\;\;\;b_c=\frac{b\left({a}^{2}-\delta\right)}{c^2}$$
+$$a_c=\frac{a\left(\delta-a^{2}\right)}{c^2},\;\;\;b_c=\frac{b\left(a^{2}-\delta\right)}{c^2}$$
 
 Two concentric, axis-aligned ellipses can generate a 3-periodic Poncelet family if and only if $a/a_c+b/b_c=1$ [@griffiths1978], which holds above.
 
 ## X(1) and Excenters
  
-$$a_1=\frac{\delta-{b}^{2}}{a},\;\;\;b_1=\frac{{a}^{2}-\delta}{b}$$
+$$a_1=\frac{\delta-a^{2}}a,\;\;\;b_1=\frac{a^{2}-\delta}a$$
 
 The locus of the Excenters is an ellipse with axes:
  
 $$
- a_e=\frac{{b}^{2}+\delta}{a},\;\;\; 
- b_e=\frac{{a}^{2}+\delta}{b}
+ a_e=\frac{a^{2}+\delta}a,\;\;\; 
+ b_e=\frac{a^{2}+\delta}a
 $$
  
 Notice it is similar to the $X_1$ locus, i.e., $a_1/b_1=b_e/a_e$. 
@@ -64,14 +64,14 @@ Notice it is similar to the $X_1$ locus, i.e., $a_1/b_1=b_e/a_e$.
 ## X(2) (similar to Billiard)
 
 $$
- \left(a_2,b_2\right)=k_2\left(a,b\right),\;\textrm{where}\; k_2=\frac{2\delta -{a}^{2}-{b}^{2}}{3c^2}
+ \left(a_2,b_2\right)=k_2\left(a,b\right),\;\textrm{where}\; k_2=\frac{2\delta -a^{2}-a^{2}}{3c^2}
 $$
 
 ## X(3) (similar to rotated Caustic)}
  
 $$
- a_3=\frac{{a}^{2}-\delta}{2a},\;\;\;
- b_3=\frac{\delta-{b}^{2}}{2b}
+ a_3=\frac{a^{2}-\delta}{2a},\;\;\;
+ b_3=\frac{\delta-a^{2}}{2b}
 $$
 
 Additionally, when $a/b= \frac{\sqrt{2\sqrt{33}+2}}{2} \;{\simeq}\;1.836$, $b_3=b$, i.e., the top and bottom vertices of the locus of $X_3$ coincide with the Billiard's.
@@ -80,9 +80,9 @@ Additionally, when $a/b= \frac{\sqrt{2\sqrt{33}+2}}{2} \;{\simeq}\;1.836$, $b_3=
 
 $$
 \scriptsize
-\left(a_4,b_4\right)=\left(\frac{k_4}{a},\frac{k_4}{b}\right),\;  k_4=\frac{  ({a}^{2}+{b}^{2})\delta-2\,{a}^{2}{b}^{2} }{c^2}
-% a_4={\frac{ \left( {a}^{2}+{b}^{2} \right) \delta-2\,{b}^{2}{a}^{2}}{\left({a}^{2}-{b}^{2}\right)a}},\;\;\;
-% b_4={\frac{ \left( {a}^{2}+{b}^{2} \right) \delta-2\,{b}^{2}{a}^{2}}{\left({a}^{2}-{b}^{2}\right)b}}
+\left(a_4,b_4\right)=\left(\frac{k_4}a,\frac{k_4}a\right),\;  k_4=\frac{  (a^{2}+a^{2})\delta-2\,a^{2}a^{2} }{c^2}
+% a_4={\frac{ \left( a^{2}+a^{2} \right) \delta-2\,a^{2}a^{2}}{\left(a^{2}-a^{2}\right)a}},\;\;\;
+% b_4={\frac{ \left( a^{2}+a^{2} \right) \delta-2\,a^{2}a^{2}}{\left(a^{2}-a^{2}\right)b}}
 $$
 
 Additionally:
@@ -106,24 +106,24 @@ $$
 ## X(7) (similar to Billiard)
     
 $$
-\left(a_7,b_7\right)=k_7\left(a,b\right),\;\;  k_7=\frac{2\delta - {a}^{2}-{b}^{2}}{c^2}
-%   a_7= \frac{\left(2\delta - {a}^{2}-{b}^{2} \right) a}{{a}^{2}-{b}^{2}},\;\;
-%   b_7= \frac{ \left(2\delta - {a}^{2}-{b}^{2}\right) b}{{a}^{2}-{b}^{2}}
+\left(a_7,b_7\right)=k_7\left(a,b\right),\;\;  k_7=\frac{2\delta - a^{2}-a^{2}}{c^2}
+%   a_7= \frac{\left(2\delta - a^{2}-a^{2} \right) a}{a^{2}-a^{2}},\;\;
+%   b_7= \frac{ \left(2\delta - a^{2}-a^{2}\right) b}{a^{2}-a^{2}}
 $$
 
 ## X(8)
 
 $$
- a_{8}= {\frac{ ({b}^2-\delta)^2 }{a c^2   }},\;\;\;
- b_{8}={\frac{  ({a}^{2} -\delta )^2  }{b c^2 }}
+ a_{8}= {\frac{ (a^2-\delta)^2 }{a c^2   }},\;\;\;
+ b_{8}={\frac{  (a^{2} -\delta )^2  }{b c^2 }}
 $$
 
 ## X(10) (similar to rotated Billiard)
 
 $$
-\left(a_{10},b_{10}\right)=\left(\frac{k_{10}}{a},\frac{k_{10}}{b}\right),\;\;   k_{10}=\frac{ \left( {a}^{2}+{b}^{2} \right)\delta-{a}^{4}-{b}^{4}}{2 c^2}
-%a_{10}={\frac{ \left( {a}^{2}+{b}^{2} \right) \delta-{a}^{4}-{b}^{4}}{ 2\left( {a}^{2}-{b}^{2} \right) a}}, \;\;\;
-%b_{10}={\frac{ \left( {a}^{2}+{b}^{2} \right) \delta-{a}^{4}-{b}^{4}}{ 2\left( {a}^{2}-{b}^{2} \right) b}}
+\left(a_{10},b_{10}\right)=\left(\frac{k_{10}}a,\frac{k_{10}}a\right),\;\;   k_{10}=\frac{ \left( a^{2}+a^{2} \right)\delta-a^{4}-a^{4}}{2 c^2}
+%a_{10}={\frac{ \left( a^{2}+a^{2} \right) \delta-a^{4}-a^{4}}{ 2\left( a^{2}-a^{2} \right) a}}, \;\;\;
+%b_{10}={\frac{ \left( a^{2}+a^{2} \right) \delta-a^{4}-a^{4}}{ 2\left( a^{2}-a^{2} \right) b}}
 $$
 
 ## X(11) (identical to Caustic)
@@ -145,17 +145,17 @@ w'_{12}(u,v)=&
 w''_{12}(u,v)= & 7\,{u}^{6}+12\,{v}^{2}{u}^{4}+11\,{u}^{2}{v}^{4}+2\,{v}^{6}  \\
 w_{12}(u,v)=&  u( 7\,{u}^{6}+11\,{v}^{2}{u}^{4}-11\,{u}^{2}{v}^{4}-7\,{v}^{6}).
 %
-%b_{12}=&  {\frac{- \,{a}^{2}(2a^6+3\,{b}^{2}{a}^{4}+12\,{a}^{2}{b}^{4}+15\,{b}^{6})+ \left( 2\,{a}^{6}+11\,{b}^{2}{a}^{4}+12\,{a}^{2}{b}^{4}+7\,{b}^
-	%	{6} \right) \delta}{b \left( 7\,{a}^{6
-%		}+11\,{b}^{2}{a}^{4}-11\,{a}^{2}{b}^{4}-7\,{b}^{6} \right) }}
+%b_{12}=&  {\frac{- \,a^{2}(2a^6+3\,a^{2}a^{4}+12\,a^{2}a^{4}+15\,a^{6})+ \left( 2\,a^{6}+11\,a^{2}a^{4}+12\,a^{2}a^{4}+7\,a^
+	%	{6} \right) \delta}{b \left( 7\,a^{6
+%		}+11\,a^{2}a^{4}-11\,a^{2}a^{4}-7\,a^{6} \right) }}
 \end{align*} 
 $$
  
 ## X(20)
 
 $$
-a_{20}=     {\frac{{a}^{2} \left(3b^2- {a}^{2}  \right) -2b^2\,\delta }{ ac^2}}, \;\;\;
-b_{20}=   {\frac{{b}^{2} \left(  {b}^{2} -3a^2\right) +2a^2\,\delta}{b c^2 }}
+a_{20}=     {\frac{a^{2} \left(3b^2- a^{2}  \right) -2b^2\,\delta }{ ac^2}}, \;\;\;
+b_{20}=   {\frac{a^{2} \left(  a^{2} -3a^2\right) +2a^2\,\delta}{b c^2 }}
 $$
 
 ## X(21)
@@ -192,8 +192,8 @@ $$
 ## X(40) (similar to rotated Billiard)
 
 $$
-a_{40}=\frac{ c^2}{a},\;\;\;
-b_{40}=\frac{ c^2}{b}
+a_{40}=\frac{ c^2}a,\;\;\;
+b_{40}=\frac{ c^2}a
 $$
 
 Additionally:
@@ -218,10 +218,10 @@ $$
 ## X(55) (similar to Caustic)
       
 $$
-a_{55}= {\frac{a\left(\delta-{b}^{2}
-      		\right)}{{a}^{2}+{b}^{2}}},\;\;
-       b_{55} =  { \frac{b \left( {a}^{2}-\delta
-       	\right)}{{a}^{2}+{b}^{2}}}    
+a_{55}= {\frac{a\left(\delta-a^{2}
+      		\right)}{a^{2}+a^{2}}},\;\;
+       b_{55} =  { \frac{b \left( a^{2}-\delta
+       	\right)}{a^{2}+a^{2}}}    
 $$    
 
 ## X(56)
@@ -250,8 +250,8 @@ $$
 
 $$
 \left(a_{63},b_{63}\right)=k_{63}\left(a,b\right),\;\; k_{63}=\frac{c^2}{a^2+b^2}
-%a_{63}={\frac{a \left( {a}^{2}-{b}^{2} \right) }{{a}^{2}+{b}^{2}}},\;\;\;
-%b_{63}= {\frac{b \left( {a}^{2}-{b}^{2} \right) }{{a}^{2}+{b}^{2}}}
+%a_{63}={\frac{a \left( a^{2}-a^{2} \right) }{a^{2}+a^{2}}},\;\;\;
+%b_{63}= {\frac{b \left( a^{2}-a^{2} \right) }{a^{2}+a^{2}}}
 $$
 
 ## X(65)
@@ -317,17 +317,17 @@ $$
 ## X(80)
       
 $$
-a_{80}={\frac{ \left( \delta-{b}^{2} 
-      		\right)  \left( {a}^{2}+{b}^{2} \right)}{a c^2}},\;\;\;
-b_{80}={\frac{ \left( {a}^{2}-\delta
-      		\right)  \left( {a}^{2}+{b}^{2} \right)}{b c^2}}
+a_{80}={\frac{ \left( \delta-a^{2} 
+      		\right)  \left( a^{2}+a^{2} \right)}{a c^2}},\;\;\;
+b_{80}={\frac{ \left( a^{2}-\delta
+      		\right)  \left( a^{2}+a^{2} \right)}{b c^2}}
 $$
       
 ## X(84) (similar to rotated Caustic)
 
 $$
-a_{84}=\frac{\left( {b}^{2}+\delta \right) c^2}{{a}^{3}},\;\;\;
-b_{84}=\frac{\left( {a}^{2}+\delta \right) c^2}{{b}^{3}}
+a_{84}=\frac{\left( a^{2}+\delta \right) c^2}{a^{3}},\;\;\;
+b_{84}=\frac{\left( a^{2}+\delta \right) c^2}{a^{3}}
 $$
   
 ## X(88) (identical to Billiard)
