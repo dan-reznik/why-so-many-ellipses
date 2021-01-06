@@ -33,10 +33,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-This paper can be found on the [arXiv]().
+This page contains appendices to [@garcia2020-ellipses].
 
-# Semi-axes of the 29 elliptic loci
-
+# Appendix I: Semi-axes of the 29 elliptic loci
 
 Table XX lists the 29 of the first 100 Kimberling centers whose loci ellipses concentric and axis-aligned with the Billiard. Below we provide explicit expressions for the semi-axes $a_i,b_i$ of said loci, i.e., let the locus of center $X_i$ be described as:
 
