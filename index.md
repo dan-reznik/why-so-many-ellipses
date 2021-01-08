@@ -17,7 +17,6 @@ output:
       number_sections: no
 link-citations: yes
 bibliography: [references.bib]
-csl: acm.csl
 ---
 
 <!-- "default", "cerulean", "journal", "flatly", "darkly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti" -->
@@ -394,8 +393,12 @@ $$
  \end{array}
 $$
 The remaining 71 centers amongst the first 100 in [@etc] whose loci are not elliptic, still ordered by increasing fit errors, which now are several orders of magnitude higher. Notice $X_9$ whose locus is a point has the highest of all errors.
- 
- $$
+
+
+<div class = "row">
+<div class = "col-md-5">
+
+$$
 \begin{array}{|c|c|c|}
 \hline
 \text{rank} &  X_i & \sum{err{}^2} \\
@@ -436,6 +439,17 @@ The remaining 71 centers amongst the first 100 in [@etc] whose loci are not elli
  63 & 99 & 8.2\times 10^{-1} \\
  64 & 14 & 8.3\times 10^{-1} \\
  65 & 98 & 8.5\times 10^{-1} \\
+  \hline
+\end{array}
+$$
+ 
+</div>
+<div class = "col-md-5">
+ $$
+\begin{array}{|c|c|c|}
+\hline
+\text{rank} &  X_i & \sum{err{}^2} \\
+\hline
  66 & 44 & 1.7 \\
  67 & 22 & 1.7 \\
  68 & 34 & 1.7 \\
@@ -474,7 +488,8 @@ The remaining 71 centers amongst the first 100 in [@etc] whose loci are not elli
  \hline
 \end{array}
 $$
-
+</div>
+</div>
 
 
 # Contact
