@@ -1,40 +1,4 @@
-/*body .main-container {
+body .main-container {
 max-width: 2000px;
 }
-body content { zoom: 300%; }*/
-    
-/*.slick-slide {
-    margin-left: 50px;
-    margin-right: 20px;
-  }*/
-
-
-.tocify {
-/*  left: 40px;*/
-}
-
-.toc-content {
-/*  left: -20px;*/
-}
-
-/*.col-md-2 {
-  width:15%;
-}
-
-.col-md-10 {
-  width:75%;
-}*/
-
-#TOC {
-  /*position: fixed;
-  width:200px;
-  overflow:auto; */
-  left: 20px;
-  max-width: 16%;
-}
-
-img {
-/*height: 100px;
-width: 100px; */
-/*object-fit: contain;*/
-}
+body content { zoom: 300%; }

@@ -22,17 +22,7 @@ csl: acm.csl
 
 <!-- "default", "cerulean", "journal", "flatly", "darkly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti" -->
 
-```{r,echo=F}
-knitr::opts_chunk$set(
-  cache=T,
-  collapse=T,
-  comment="#>",
-  dpi=300,
-  fig.align="center",
-  out.width='100%',
-  echo=F
-)
-```
+
 
 This page contains appendices to [@garcia2020-ellipses].
 
