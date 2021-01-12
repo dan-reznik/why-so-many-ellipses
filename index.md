@@ -1,5 +1,5 @@
 --- 
-title: "Loci of 3-periodics in an Elliptic Billiard: Why so many ellipses?"
+title: "Loci of 3-periodics in the Elliptic Billiard: Why so many ellipses?"
 author: Ronaldo Garcia, Dan Reznik, and Jair Koiller
 date: January, 2021
 output:
@@ -23,25 +23,31 @@ bibliography: [references.bib]
 
 
 
-This page contains appendices to [@garcia2020-ellipses].
+This page contains information supplementary to [@garcia2020-ellipses]. Specifically, semi-axes and fit errors for the 29 triangle centers within the first 100 in [@etc] whose loci are ellipses,
+over the family of 3-periodics in the elliptic billiard.
 
-# I: Semi-axes of the 29 elliptic loci
-
-Table XX lists the 29 of the first 100 Kimberling centers whose loci ellipses concentric and axis-aligned with the Billiard. Below we provide explicit expressions for the semi-axes $a_i,b_i$ of said loci, i.e., let the locus of center $X_i$ be described as:
-
-$$\frac{x^2}{a_{i}^2}+\frac{y^2}{b_{i}^2}=1$$
-
-As above, $\delta=\sqrt{a^4-a^2b^2+b^4}$. Also, the following explicit expressions were given for the axes of the $N=3$ Caustic [@garcia2019-incenter]:
+The following explicit expressions were given for the semi-axes $a_c,b_c$ of the $N=3$ caustic [@garcia2019-incenter]:
 
 $$a_c=\frac{a\left(\delta-a^{2}\right)}{c^2},\;\;\;b_c=\frac{b\left(a^{2}-\delta\right)}{c^2}$$
 
-Two concentric, axis-aligned ellipses can generate a 3-periodic Poncelet family if and only if $a/a_c+b/b_c=1$ [@griffiths1978], which holds above.
+with $\delta=\sqrt{a^4-a^2b^2+b^4}$ and $c^2=a^2-b^2$.
 
-### X(1) and Excenters
+
+Recall the above is consistent with Cayley condition for the existence of a 3-periodic family interscribed between two confocal ellipses [@georgiev2012-poncelet], namely:
+
+$$\frac{a_c}{a}+\frac{b_c}{b}=1$$
+
+# I: Semi-axes of the 29 elliptic loci
+
+Below we provide explicit expressions for the semi-axes $a_i,b_i$ of said loci, i.e., let the locus of center $X_i$ be described as:
+
+$$\frac{x^2}{a_{i}^2}+\frac{y^2}{b_{i}^2}=1$$
+
+### X(1) and excenters
  
 $$a_1=\frac{\delta-a^{2}}a,\;\;\;b_1=\frac{a^{2}-\delta}a$$
 
-The locus of the Excenters is an ellipse with axes:
+The locus of the excenters is an ellipse with axes [@garcia2019-incenter]:
  
 $$
  a_e=\frac{a^{2}+\delta}a,\;\;\; 
@@ -50,22 +56,22 @@ $$
  
 Notice it is similar to the $X_1$ locus, i.e., $a_1/b_1=b_e/a_e$. 
 
-### X(2) (similar to Billiard)
+### X(2) (similar to billiard)
 
 $$
  \left(a_2,b_2\right)=k_2\left(a,b\right),\;\textrm{where}\; k_2=\frac{2\delta -a^{2}-a^{2}}{3c^2}
 $$
 
-### X(3) (similar to rotated Caustic)}
+### X(3) (similar to rotated caustic)}
  
 $$
  a_3=\frac{a^{2}-\delta}{2a},\;\;\;
  b_3=\frac{\delta-a^{2}}{2b}
 $$
 
-Additionally, when $a/b= \frac{\sqrt{2\sqrt{33}+2}}{2} \;{\simeq}\;1.836$, $b_3=b$, i.e., the top and bottom vertices of the locus of $X_3$ coincide with the Billiard's.
+Additionally, when $a/b= \frac{\sqrt{2\sqrt{33}+2}}{2} \;{\simeq}\;1.836$, $b_3=b$, i.e., the top and bottom vertices of the locus of $X_3$ coincide with the billiard's.
 
-### X(4) (similar to rotated Billiard)
+### X(4) (similar to rotated billiard)
 
 $$
 \left(a_4,b_4\right)=\left(\frac{k_4}a,\frac{k_4}a\right),\;  k_4=\frac{  (a^{2}+a^{2})\delta-2\,a^{2}a^{2} }{c^2}
@@ -76,10 +82,10 @@ $$
 Additionally:
 
 - When
-$a/b=a_4=\sqrt{2\,\sqrt {2}-1}\;{\simeq}\;1.352$, $b_4=b$, i.e., the top and bottom vertices of the locus of $X_4$ coincide with the Billiard's.
+$a/b=a_4=\sqrt{2\,\sqrt {2}-1}\;{\simeq}\;1.352$, $b_4=b$, i.e., the top and bottom vertices of the locus of $X_4$ coincide with the billiard's.
 - Let $a_4^*$ be the positive root of
 ${x}^{6}+{x}^{4}-4\,{x}^{3}-{x}^{2}-1=0$, i.e.,
-$a_4^{*}={\simeq}\;1.51$. When $a/b=a_4^{*}$, $a_4=b$ and $b_4=a$, i.e., the locus of $X_4$ is identical to a rotated copy of Billiard. %Figure~\ref{fig:orthocenter_loci}c. 
+$a_4^{*}={\simeq}\;1.51$. When $a/b=a_4^{*}$, $a_4=b$ and $b_4=a$, i.e., the locus of $X_4$ is identical to a rotated copy of billiard.
 
 ### X(5)
 
@@ -91,7 +97,7 @@ $$
  w'_5(u,v)=u^2(u^2+3v^2),\;\;\;w''_5(u,v)=3u^2+ v^2,\;\;\;w_5(u,v)=4u(u^2-v^2).
 $$
 
-### X(7) (similar to Billiard)
+### X(7) (similar to billiard)
     
 $$
 \left(a_7,b_7\right)=k_7\left(a,b\right),\;\;  k_7=\frac{2\delta - a^{2}-a^{2}}{c^2}
@@ -106,7 +112,7 @@ $$
  b_{8}={\frac{  (a^{2} -\delta )^2  }{b c^2 }}
 $$
 
-### X(10) (similar to rotated Billiard)
+### X(10) (similar to rotated billiard)
 
 $$
 \left(a_{10},b_{10}\right)=\left(\frac{k_{10}}a,\frac{k_{10}}a\right),\;\;   k_{10}=\frac{ \left( a^{2}+a^{2} \right)\delta-a^{4}-a^{4}}{2 c^2}
@@ -114,7 +120,7 @@ $$
 %b_{10}={\frac{ \left( a^{2}+a^{2} \right) \delta-a^{4}-a^{4}}{ 2\left( a^{2}-a^{2} \right) b}}
 $$
 
-### X(11) (identical to Caustic)
+### X(11) (identical to caustic)
  
 $$
     a_{11}=a_c,\;\;\;b_{11}=b_c
@@ -177,7 +183,7 @@ w'_{36}(u,v)=	{v}^{2} \left( {u}^{2}+{v}^{2} \right),\;\;\;w''_{36}(u,v)=  3\,{u
 w_{36}(u,v)=3u \left(u^2-v^2\right)
 $$
 
-### X(40) (similar to rotated Billiard)
+### X(40) (similar to rotated billiard)
 
 $$
 a_{40}=\frac{ c^2}a,\;\;\;
@@ -186,8 +192,8 @@ $$
 
 Additionally:
 
-- When $a/b= \sqrt{2}$, $b_{40}=b$, i.e., the top and bottom vertices of the $X_{40}$ locus coincides with the Billiard's.
-- When $a/b=(1+\sqrt{5})/2=\phi\;{\simeq}\;1.618$, $b_{40}=a$ and $a_{40}=b$, i.e., the $X_{40}$ locus is identical to a rotated copy of Billiard.
+- When $a/b= \sqrt{2}$, $b_{40}=b$, i.e., the top and bottom vertices of the $X_{40}$ locus coincides with the billiard's.
+- When $a/b=(1+\sqrt{5})/2=\phi\;{\simeq}\;1.618$, $b_{40}=a$ and $a_{40}=b$, i.e., the $X_{40}$ locus is identical to a rotated copy of billiard.
 
 ### X(46)
 
@@ -203,7 +209,7 @@ w_{46}(u,v)=& v(5\,{u}^{4}-6\,{u}^{2}{v}^{2}+5\,{v}^{4} )
 \end{align*}
 $$
 
-### X(55) (similar to Caustic)
+### X(55) (similar to caustic)
       
 $$
 a_{55}= {\frac{a\left(\delta-a^{2}
@@ -226,7 +232,7 @@ w_{56}(u,v)=&u(5\,{u}^{4}-6\,{u}^{2}{v}^{2}+5\,{v}^{4} )
 \end{align*}
 $$
 
-### X(57) (similar to Billiard)
+### X(57) (similar to billiard)
 
 $$
 \left(a_{57},b_{57}\right)=k_{57}\left(a,b\right),\;\;   k_{57}=\frac{c^2}{\delta}
@@ -234,7 +240,7 @@ $$
 %b_{57}=\frac{b (a^2- b^2)}{ \delta}
 $$
 
-### X(63) (similar to Billiard)
+### X(63) (similar to billiard)
 
 $$
 \left(a_{63},b_{63}\right)=k_{63}\left(a,b\right),\;\; k_{63}=\frac{c^2}{a^2+b^2}
@@ -297,7 +303,7 @@ b_{79}= \frac{  w'_{79}(b,a)- w''_{79}(b,a) \delta  }{  w_{79}(b,a)  }$$
 
 $$
 \begin{align*}
-w'_{79}(u,v)=&{v}^{2}   11\,{u}^{4}+4\,{v}^{2}{u}^{2}+{v}^{4},\;\;\;w''_{79}(u,v)=& \left( 3\,{u}^{4}+12\,{u}^{2}{v}^{2}+{v}^{4} \right)   \\
+w'_{79}(u,v)=&{v}^{2}   11\,{u}^{4}+4\,{v}^{2}{u}^{2}+{v}^{4},\;\;\;w_{79}''(u,v)= \left( 3\,{u}^{4}+12\,{u}^{2}{v}^{2}+{v}^{4} \right)   \\
 w_{79}(u,v)=&u \left( u^2-v^2 \right) \left( 3\,{u}^{2}+5\,{v}^{2} \right)
 \end{align*}
 $$
@@ -311,14 +317,14 @@ b_{80}={\frac{ \left( a^{2}-\delta
       		\right)  \left( a^{2}+a^{2} \right)}{b c^2}}
 $$
       
-### X(84) (similar to rotated Caustic)
+### X(84) (similar to rotated caustic)
 
 $$
 a_{84}=\frac{\left( a^{2}+\delta \right) c^2}{a^{3}},\;\;\;
 b_{84}=\frac{\left( a^{2}+\delta \right) c^2}{a^{3}}
 $$
   
-### X(88) (identical to Billiard)
+### X(88) (identical to billiard)
       
 $$
     a_{88}=a,\;\;\;b_{88}=b
@@ -341,7 +347,7 @@ w_{90}(u,v)=& u \left( {u}^{4}+2\,{u}^{2}{v}^{2}-7\,{v}^{4} \right)
 $$
 
 
-### X(100) (identical to Billiard)
+### X(100) (identical to billiard)
 
 $$a_{100}=a,\;\;\;b_{100}=b$$
 
@@ -397,7 +403,6 @@ The remaining 71 centers amongst the first 100 in [@etc] whose loci are not elli
 
 <div class = "row">
 <div class = "col-md-5">
-
 $$
 \begin{array}{|c|c|c|}
 \hline
