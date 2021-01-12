@@ -352,7 +352,7 @@ $$
 $$a_{100}=a,\;\;\;b_{100}=b$$
 
 
-# II: Centers Sorted by Fit Error
+# II: Centers sorted by fit error
 
 Let the least-squares fit error be defined by:
 
@@ -496,6 +496,11 @@ $$
 </div>
 </div>
 
+# III: Additional elliptic centers
+
+Over $X_{101}$ thru $X_{200}$, the following 13 center produce elliptic loci:
+
+$X_k$, where $k$ is in: 104, 119, 140, 142, 144, 145, 149, 153, 162, 165, 190, 191, 200.
 
 # Contact
 
