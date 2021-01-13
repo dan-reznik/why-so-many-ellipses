@@ -53,7 +53,7 @@ Below we provide explicit expressions for the semi-axes $a_i,b_i$ of said loci, 
 
 $$\frac{x^2}{a_{i}^2}+\frac{y^2}{b_{i}^2}=1$$
 
-The reader is encouraged to visualize the loci below using our interactive [app](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/). 
+The reader is encouraged to visualize the loci for all of $X_1$ thru $X_{100}$ [here](https://dan-reznik.github.io/billiard-loci/loci.html). Additionally, one can view them with our interactive [app](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/). 
 
 ### X(1) and excenters, [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?sc=11.470&xn1=1&lc1=vtx&lc2=trilins&tr1=excentral&rot=90)
  
