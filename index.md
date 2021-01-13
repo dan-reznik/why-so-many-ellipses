@@ -45,7 +45,7 @@ $$\frac{x^2}{a_{i}^2}+\frac{y^2}{b_{i}^2}=1$$
 
 The reader is encouraged to visualize the loci for all of $X_1$ thru $X_{100}$ [here](https://dan-reznik.github.io/billiard-loci/loci.html). Additionally, one can view them with our interactive [app](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/). 
 
-### X(1) and excenters, [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?sc=11.470&xn1=1&lc1=vtx&lc2=trilins&tr1=excentral&rot=90)
+### X(1) and excenters, [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?sc=11.470&xn1=1&lc1=vtx&lc2=trilins&tr1=excentral&rot=90)
  
 $$a_1=\frac{\delta-a^{2}}a,\;\;\;b_1=\frac{a^{2}-\delta}a$$
 
@@ -59,13 +59,13 @@ $$
  
 Notice it is similar to the $X_1$ locus, i.e., $a_1/b_1=b_e/a_e$. 
 
-### X(2) (similar to billiard), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=2)
+### X(2) (similar to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=2)
 
 $$
  \left(a_2,b_2\right)=k_2\left(a,b\right),\;\textrm{where}\; k_2=\frac{2\delta -a^{2}-a^{2}}{3c^2}
 $$
 
-### X(3) (similar to rotated caustic), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=3)
+### X(3) (similar to rotated caustic), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=3)
  
 $$
  a_3=\frac{a^{2}-\delta}{2a},\;\;\;
@@ -74,7 +74,7 @@ $$
 
 Additionally, when $a/b= \frac{\sqrt{2\sqrt{33}+2}}{2} \;{\simeq}\;1.836$, $b_3=b$, i.e., the top and bottom vertices of the locus of $X_3$ coincide with the billiard's.
 
-### X(4) (similar to rotated billiard), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=4)
+### X(4) (similar to rotated billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=4)
 
 $$
 \left(a_4,b_4\right)=\left(\frac{k_4}a,\frac{k_4}a\right),\;  k_4=\frac{  (a^{2}+a^{2})\delta-2\,a^{2}a^{2} }{c^2}
@@ -90,7 +90,7 @@ $a/b=a_4=\sqrt{2\,\sqrt {2}-1}\;{\simeq}\;1.352$, $b_4=b$, i.e., the top and bot
 ${x}^{6}+{x}^{4}-4\,{x}^{3}-{x}^{2}-1=0$, i.e.,
 $a_4^{*}={\simeq}\;1.51$. When $a/b=a_4^{*}$, $a_4=b$ and $b_4=a$, i.e., the locus of $X_4$ is identical to a rotated copy of billiard.
 
-### X(5), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=5)
+### X(5), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=5)
 
 $$
   a_5=\frac{- w'_5(a,b)+ w''_5(a,b) \delta}{ w_5(a,b)},\;\;\;b_5=\frac{ w'_5(b,a)-{w''_5(b,a) \delta}}{w_5(b,a)}
@@ -100,7 +100,7 @@ $$
  w'_5(u,v)=u^2(u^2+3v^2),\;\;\;w''_5(u,v)=3u^2+ v^2,\;\;\;w_5(u,v)=4u(u^2-v^2).
 $$
 
-### X(7) (similar to billiard), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=7)
+### X(7) (similar to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=7)
     
 $$
 \left(a_7,b_7\right)=k_7\left(a,b\right),\;\;  k_7=\frac{2\delta - a^{2}-a^{2}}{c^2}
@@ -108,14 +108,14 @@ $$
 %   b_7= \frac{ \left(2\delta - a^{2}-a^{2}\right) b}{a^{2}-a^{2}}
 $$
 
-### X(8), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=8)
+### X(8), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=8)
 
 $$
  a_{8}= {\frac{ (a^2-\delta)^2 }{a c^2   }},\;\;\;
  b_{8}={\frac{  (a^{2} -\delta )^2  }{b c^2 }}
 $$
 
-### X(10) (similar to rotated billiard), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=10)
+### X(10) (similar to rotated billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=10)
 
 $$
 \left(a_{10},b_{10}\right)=\left(\frac{k_{10}}a,\frac{k_{10}}a\right),\;\;   k_{10}=\frac{ \left( a^{2}+a^{2} \right)\delta-a^{4}-a^{4}}{2 c^2}
@@ -123,13 +123,13 @@ $$
 %b_{10}={\frac{ \left( a^{2}+a^{2} \right) \delta-a^{4}-a^{4}}{ 2\left( a^{2}-a^{2} \right) b}}
 $$
 
-### X(11) (identical to caustic), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=11)
+### X(11) (identical to caustic), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=11)
  
 $$
     a_{11}=a_c,\;\;\;b_{11}=b_c
 $$
 
-### X(12), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=12)
+### X(12), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=12)
 
 $$
     a_{12}=\frac{ - w'_{12} (a,b)+ w''_{12}(a,b) \delta}{ w_{12} (a,b)},\;\;\;b_{12}=\frac{   w'_{12}(b,a)-w''_{12}(b,a)\delta}{ w_{12}(b,a)}
@@ -148,14 +148,14 @@ w_{12}(u,v)=&  u( 7\,{u}^{6}+11\,{v}^{2}{u}^{4}-11\,{u}^{2}{v}^{4}-7\,{v}^{6}).
 \end{align*} 
 $$
  
-### X(20), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=20)
+### X(20), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=20)
 
 $$
 a_{20}=     {\frac{a^{2} \left(3b^2- a^{2}  \right) -2b^2\,\delta }{ ac^2}}, \;\;\;
 b_{20}=   {\frac{a^{2} \left(  a^{2} -3a^2\right) +2a^2\,\delta}{b c^2 }}
 $$
 
-### X(21), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=21)
+### X(21), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=21)
 
 $$
     a_{21}=\frac{-w'_{21}(a,b)+ w''_{21}(a,b) \delta}{ w_{21}(a,b)},\;\;\;b_{21}=\frac{ w'_{21}(b,a)- \,  w''_{21}(b,a)\delta}{ w_{21}(b,a)}\\
@@ -165,7 +165,7 @@ $$
 w'_{21}(u,v)={u}^{4}+{u}^{2}{v}^{2}+ \,{v}^{4},\;\;w''_{21}(u,v)= 2( {u}^{2}+{v}^{2}),\;\;w_{21}(u,v)=u\left( 3\,{u}^{2}+5\,{v}^{2} \right)
 $$
 
-### X(35), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=35)
+### X(35), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=35)
 
 $$
 \begin{align*}
@@ -175,7 +175,7 @@ w_{35}(u,v)=& u(7\,{u}^{4}+18\,{u}^{2}{v}^{2}+7\,{v}^{4} )
 \end{align*}
 $$
 
-### X(36), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=36)
+### X(36), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=36)
 
 $$
     a_{36}=\frac{w'_{36}(a,b)+ w''_{36}(a,b)\delta }{w_{36}(a,b)},\;\;\;b_{36}=\frac{  -w'_{36}(b,a)  -w''_{36}(b,a)\delta}{w(b,a)}
@@ -186,7 +186,7 @@ w'_{36}(u,v)=	{v}^{2} \left( {u}^{2}+{v}^{2} \right),\;\;\;w''_{36}(u,v)=  3\,{u
 w_{36}(u,v)=3u \left(u^2-v^2\right)
 $$
 
-### X(40) (similar to rotated billiard), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=40)
+### X(40) (similar to rotated billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=40)
 
 $$
 a_{40}=\frac{ c^2}a,\;\;\;
@@ -198,7 +198,7 @@ Additionally:
 - When $a/b= \sqrt{2}$, $b_{40}=b$, i.e., the top and bottom vertices of the $X_{40}$ locus coincides with the billiard's.
 - When $a/b=(1+\sqrt{5})/2=\phi\;{\simeq}\;1.618$, $b_{40}=a$ and $a_{40}=b$, i.e., the $X_{40}$ locus is identical to a rotated copy of billiard.
 
-### X(46), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=46)
+### X(46), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=46)
 
 
 $$
@@ -212,7 +212,7 @@ w_{46}(u,v)=& v(5\,{u}^{4}-6\,{u}^{2}{v}^{2}+5\,{v}^{4} )
 \end{align*}
 $$
 
-### X(55) (similar to caustic), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=55)
+### X(55) (similar to caustic), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=55)
       
 $$
 a_{55}= {\frac{a\left(\delta-a^{2}
@@ -221,7 +221,7 @@ a_{55}= {\frac{a\left(\delta-a^{2}
        	\right)}{a^{2}+a^{2}}}    
 $$    
 
-### X(56), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=56)
+### X(56), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=56)
 
 $$
 a_{56}=  \frac{-w'_{56}(a,b) + w''_{56}(a,b) \delta}{  w_{56}(a,b) },\;\;\;   
@@ -235,7 +235,7 @@ w_{56}(u,v)=&u(5\,{u}^{4}-6\,{u}^{2}{v}^{2}+5\,{v}^{4} )
 \end{align*}
 $$
 
-### X(57) (similar to billiard), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=57)
+### X(57) (similar to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=57)
 
 $$
 \left(a_{57},b_{57}\right)=k_{57}\left(a,b\right),\;\;   k_{57}=\frac{c^2}{\delta}
@@ -243,7 +243,7 @@ $$
 %b_{57}=\frac{b (a^2- b^2)}{ \delta}
 $$
 
-### X(63) (similar to billiard), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=63)
+### X(63) (similar to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=63)
 
 $$
 \left(a_{63},b_{63}\right)=k_{63}\left(a,b\right),\;\; k_{63}=\frac{c^2}{a^2+b^2}
@@ -251,7 +251,7 @@ $$
 %b_{63}= {\frac{b \left( a^{2}-a^{2} \right) }{a^{2}+a^{2}}}
 $$
 
-### X(65), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=65)
+### X(65), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=65)
 
 $$
 \begin{align*}
@@ -268,7 +268,7 @@ w_{65}(u,v)=&u\left( {u}^{2}-{v}^{2} \right) ^{2}
 \end{align*}
 $$
 
-### X(72), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=72)
+### X(72), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=72)
 
 $$
 \begin{align*}
@@ -283,7 +283,7 @@ w''_{72}(u,v)= (3\,{u}^{2}+{v}^{2}){v}^{2},\;\;
 w_{72}(u,v)= u\left(u^2-v^2 \right)^{2}
 $$
 
-### X(78), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=78)
+### X(78), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=78)
           
 $$
 a_{78}= \frac{w'_{78}(a,b) -w''_{78}(a,b) \delta }{w_{78}(a,b) },\;\;\;
@@ -297,7 +297,7 @@ w_{78}(u,v)=&u \left( 5\,{u}^{4}-6\,{v}^{2}{u}^{2}+5\,{v}^{4} \right)\
 \end{align*}
 $$
 
-### X(79), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=79)
+### X(79), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=79)
 
 
 $$
@@ -311,7 +311,7 @@ w_{79}(u,v)=&u \left( u^2-v^2 \right) \left( 3\,{u}^{2}+5\,{v}^{2} \right)
 \end{align*}
 $$
 
-### X(80), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=80)
+### X(80), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=80)
       
 $$
 a_{80}={\frac{ \left( \delta-a^{2} 
@@ -320,20 +320,20 @@ b_{80}={\frac{ \left( a^{2}-\delta
       		\right)  \left( a^{2}+a^{2} \right)}{b c^2}}
 $$
       
-### X(84) (similar to rotated caustic), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=84)
+### X(84) (similar to rotated caustic), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=84)
 
 $$
 a_{84}=\frac{\left( a^{2}+\delta \right) c^2}{a^{3}},\;\;\;
 b_{84}=\frac{\left( a^{2}+\delta \right) c^2}{a^{3}}
 $$
   
-### X(88) (identical to billiard), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=88)
+### X(88) (identical to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=88)
       
 $$
     a_{88}=a,\;\;\;b_{88}=b
 $$
       
-### X(90), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=90)
+### X(90), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=90)
 
 
 $$
@@ -350,7 +350,7 @@ w_{90}(u,v)=& u \left( {u}^{4}+2\,{u}^{2}{v}^{2}-7\,{v}^{4} \right)
 $$
 
 
-### X(100) (identical to billiard), [see it](dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=100)
+### X(100) (identical to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=100)
 
 $$a_{100}=a,\;\;\;b_{100}=b$$
 
