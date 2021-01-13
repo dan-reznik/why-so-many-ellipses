@@ -499,7 +499,7 @@ $$
 </div>
 </div>
 
-# III: Additional elliptic centers
+# III: X(101)--X(200)
 
 From $X_{101}$ thru $X_{200}$, the locus of the following 13 centers are ellipses:
 
