@@ -47,29 +47,25 @@ The reader is encouraged to visualize the loci for all of $X_1$ thru $X_{100}$ [
 
 ### X(1) and excenters, [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?sc=11.470&xn1=1&lc1=vtx&lc2=trilins&tr1=excentral&rot=90)
  
-$$a_1=\frac{\delta-a^{2}}a,\;\;\;b_1=\frac{a^{2}-\delta}a$$
+$$a_1=\frac{\delta-b^{2}}{a},\;\;\;b_1=\frac{a^{2}-\delta}{b}$$
 
 
 The locus of the excenters is an ellipse with axes [@garcia2019-incenter]:
  
-$$
- a_e=\frac{a^{2}+\delta}a,\;\;\; 
- b_e=\frac{a^{2}+\delta}a
-$$
+$$ a_e=\frac{b^{2}+\delta}a,\;\;\; 
+ b_e=\frac{a^{2}+\delta}b$$
  
 Notice it is similar to the $X_1$ locus, i.e., $a_1/b_1=b_e/a_e$. 
 
 ### X(2) (similar to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=2)
 
-$$
- \left(a_2,b_2\right)=k_2\left(a,b\right),\;\textrm{where}\; k_2=\frac{2\delta -a^{2}-a^{2}}{3c^2}
-$$
+$$\left(a_2,b_2\right)=k_2\left(a,b\right),\;\textrm{where}\; k_2=\frac{2\delta -a^{2}-b^{2}}{3c^2}$$
 
 ### X(3) (similar to rotated caustic), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=3)
  
 $$
  a_3=\frac{a^{2}-\delta}{2a},\;\;\;
- b_3=\frac{\delta-a^{2}}{2b}
+ b_3=\frac{\delta-b^{2}}{2b}
 $$
 
 Additionally, when $a/b= \frac{\sqrt{2\sqrt{33}+2}}{2} \;{\simeq}\;1.836$, $b_3=b$, i.e., the top and bottom vertices of the locus of $X_3$ coincide with the billiard's.
@@ -77,9 +73,7 @@ Additionally, when $a/b= \frac{\sqrt{2\sqrt{33}+2}}{2} \;{\simeq}\;1.836$, $b_3=
 ### X(4) (similar to rotated billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=4)
 
 $$
-\left(a_4,b_4\right)=\left(\frac{k_4}a,\frac{k_4}a\right),\;  k_4=\frac{  (a^{2}+a^{2})\delta-2\,a^{2}a^{2} }{c^2}
-% a_4={\frac{ \left( a^{2}+a^{2} \right) \delta-2\,a^{2}a^{2}}{\left(a^{2}-a^{2}\right)a}},\;\;\;
-% b_4={\frac{ \left( a^{2}+a^{2} \right) \delta-2\,a^{2}a^{2}}{\left(a^{2}-a^{2}\right)b}}
+\left(a_4,b_4\right)=\left(\frac{k_4}a,\frac{k_4}b\right),\;  k_4=\frac{  (a^{2}+b^{2})\delta-2\,a^{2}b^{2} }{c^2}
 $$
 
 Additionally:
@@ -103,57 +97,41 @@ $$
 ### X(7) (similar to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=7)
     
 $$
-\left(a_7,b_7\right)=k_7\left(a,b\right),\;\;  k_7=\frac{2\delta - a^{2}-a^{2}}{c^2}
-%   a_7= \frac{\left(2\delta - a^{2}-a^{2} \right) a}{a^{2}-a^{2}},\;\;
-%   b_7= \frac{ \left(2\delta - a^{2}-a^{2}\right) b}{a^{2}-a^{2}}
+\left(a_7,b_7\right)=k_7\left(a,b\right),\;\;  k_7=\frac{2\delta - a^{2}-b^{2}}{c^2}
 $$
 
 ### X(8), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=8)
 
 $$
- a_{8}= {\frac{ (a^2-\delta)^2 }{a c^2   }},\;\;\;
+ a_{8}= {\frac{ (b^2-\delta)^2 }{a c^2   }},\;\;\;
  b_{8}={\frac{  (a^{2} -\delta )^2  }{b c^2 }}
 $$
 
 ### X(10) (similar to rotated billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=10)
 
 $$
-\left(a_{10},b_{10}\right)=\left(\frac{k_{10}}a,\frac{k_{10}}a\right),\;\;   k_{10}=\frac{ \left( a^{2}+a^{2} \right)\delta-a^{4}-a^{4}}{2 c^2}
-%a_{10}={\frac{ \left( a^{2}+a^{2} \right) \delta-a^{4}-a^{4}}{ 2\left( a^{2}-a^{2} \right) a}}, \;\;\;
-%b_{10}={\frac{ \left( a^{2}+a^{2} \right) \delta-a^{4}-a^{4}}{ 2\left( a^{2}-a^{2} \right) b}}
+\left(a_{10},b_{10}\right)=\left(\frac{k_{10}}a,\frac{k_{10}}b\right),\;\;   k_{10}=\frac{ \left( a^{2}+b^{2} \right)\delta-a^{4}-b^{4}}{2 c^2}
 $$
 
 ### X(11) (identical to caustic), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=11)
  
-$$
-    a_{11}=a_c,\;\;\;b_{11}=b_c
-$$
+$$a_{11}=a_c,\;\;\;b_{11}=b_c$$
 
 ### X(12), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=12)
 
-$$
-    a_{12}=\frac{ - w'_{12} (a,b)+ w''_{12}(a,b) \delta}{ w_{12} (a,b)},\;\;\;b_{12}=\frac{   w'_{12}(b,a)-w''_{12}(b,a)\delta}{ w_{12}(b,a)}
-$$
+$$a_{12}=\frac{ - w'_{12} (a,b)+ w''_{12}(a,b) \delta}{ w_{12} (a,b)},\;\;\;b_{12}=\frac{   w'_{12}(b,a)-w''_{12}(b,a)\delta}{ w_{12}(b,a)}$$
 
-$$
-\begin{align*}
+$$\begin{align*}
 w'_{12}(u,v)=&
 		  v^2(15\,{u}^{6}+12\,{v}^{2}{u}^{4}+3\,{u}^{2}{v}^{4}+2\,{v}^{6})\\
 w''_{12}(u,v)= & 7\,{u}^{6}+12\,{v}^{2}{u}^{4}+11\,{u}^{2}{v}^{4}+2\,{v}^{6}  \\
 w_{12}(u,v)=&  u( 7\,{u}^{6}+11\,{v}^{2}{u}^{4}-11\,{u}^{2}{v}^{4}-7\,{v}^{6}).
-%
-%b_{12}=&  {\frac{- \,a^{2}(2a^6+3\,a^{2}a^{4}+12\,a^{2}a^{4}+15\,a^{6})+ \left( 2\,a^{6}+11\,a^{2}a^{4}+12\,a^{2}a^{4}+7\,a^
-	%	{6} \right) \delta}{b \left( 7\,a^{6
-%		}+11\,a^{2}a^{4}-11\,a^{2}a^{4}-7\,a^{6} \right) }}
-\end{align*} 
-$$
+\end{align*}$$
  
 ### X(20), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=20)
 
-$$
-a_{20}=     {\frac{a^{2} \left(3b^2- a^{2}  \right) -2b^2\,\delta }{ ac^2}}, \;\;\;
-b_{20}=   {\frac{a^{2} \left(  a^{2} -3a^2\right) +2a^2\,\delta}{b c^2 }}
-$$
+$$a_{20}=     {\frac{a^{2} \left(3b^2- a^{2}  \right) -2b^2\,\delta }{ ac^2}}, \;\;\;
+b_{20}=   {\frac{b^{2} \left(b^{2} -3a^2\right) +2a^2\,\delta}{b c^2 }}$$
 
 ### X(21), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=21)
 
@@ -161,14 +139,11 @@ $$
     a_{21}=\frac{-w'_{21}(a,b)+ w''_{21}(a,b) \delta}{ w_{21}(a,b)},\;\;\;b_{21}=\frac{ w'_{21}(b,a)- \,  w''_{21}(b,a)\delta}{ w_{21}(b,a)}\\
 $$
   
-$$
-w'_{21}(u,v)={u}^{4}+{u}^{2}{v}^{2}+ \,{v}^{4},\;\;w''_{21}(u,v)= 2( {u}^{2}+{v}^{2}),\;\;w_{21}(u,v)=u\left( 3\,{u}^{2}+5\,{v}^{2} \right)
-$$
+$$w'_{21}(u,v)={u}^{4}+{u}^{2}{v}^{2}+ \,{v}^{4},\;\;w''_{21}(u,v)= 2( {u}^{2}+{v}^{2}),\;\;w_{21}(u,v)=u\left( 3\,{u}^{2}+5\,{v}^{2} \right)$$
 
 ### X(35), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=35)
 
-$$
-\begin{align*}
+$$\begin{align*}
 a_{35}=&\frac{-w'_{35}(a,b)+w''_{35}(a,b) \delta}{w_{35}(a,b)},\;\;\;b_{35}=\frac{-w'_{35}(b,a)+w''_{35}(b,a)\delta}{w_{35}(b,a)} \\
 w'_{35}(u,v)=&v^2( 11\,{u}^{4}+4\,{u}^{2}{v}^{2}+{v}^{4} ),\;\;\;w''_{35}(u,v)=\left( 7\,{u}^{2}+{v}^{2} \right)  \left( {u}^{2}+{v}^{2}\right)\\
 w_{35}(u,v)=& u(7\,{u}^{4}+18\,{u}^{2}{v}^{2}+7\,{v}^{4} )
@@ -177,21 +152,14 @@ $$
 
 ### X(36), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=36)
 
-$$
-    a_{36}=\frac{w'_{36}(a,b)+ w''_{36}(a,b)\delta }{w_{36}(a,b)},\;\;\;b_{36}=\frac{  -w'_{36}(b,a)  -w''_{36}(b,a)\delta}{w(b,a)}
-$$
+$$    a_{36}=\frac{w'_{36}(a,b)+ w''_{36}(a,b)\delta }{w_{36}(a,b)},\;\;\;b_{36}=\frac{  -w'_{36}(b,a)  -w''_{36}(b,a)\delta}{w(b,a)}$$
 
-$$
-w'_{36}(u,v)=	{v}^{2} \left( {u}^{2}+{v}^{2} \right),\;\;\;w''_{36}(u,v)=  3\,{u}^{2}-{v}^{2},\;\;\;
-w_{36}(u,v)=3u \left(u^2-v^2\right)
-$$
+$$w'_{36}(u,v)=	{v}^{2} \left( {u}^{2}+{v}^{2} \right),\;\;\;w''_{36}(u,v)=  3\,{u}^{2}-{v}^{2},\;\;\;
+w_{36}(u,v)=3u \left(u^2-v^2\right)$$
 
 ### X(40) (similar to rotated billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=40)
 
-$$
-a_{40}=\frac{ c^2}a,\;\;\;
-b_{40}=\frac{ c^2}a
-$$
+$$a_{40}=\frac{c^2}{a},\;\;\;b_{40}=\frac{c^2}{b}$$
 
 Additionally:
 
@@ -201,35 +169,26 @@ Additionally:
 ### X(46), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=46)
 
 
-$$
-    a_{46}=\frac{w'_{46}(a,b)+w''_{46}(a,b) \delta}{ w_{46}(a,b) },\;\;\;b_{46}=\frac{-w'_{46}(b,a) - w''_{46}(b,a)\delta}{ w_{46}(b,a) }
-$$
+$$a_{46}=\frac{w'_{46}(a,b)+w''_{46}(a,b) \delta}{ w_{46}(a,b) },\;\;\;b_{46}=\frac{-w'_{46}(b,a) - w''_{46}(b,a)\delta}{ w_{46}(b,a) }$$
 
-$$
-\begin{align*}
+$$\begin{align*}
 w'_{46}(u,v)=& v^2(3\,{u}^{2}-{v}^{2} )(u^2-v^2),\;\;\;w''_{46}(u,v)= (5\,{u}^{2}+{v}^{2})(u^2-v^2) \\
 w_{46}(u,v)=& v(5\,{u}^{4}-6\,{u}^{2}{v}^{2}+5\,{v}^{4} )
-\end{align*}
-$$
+\end{align*}$$
 
 ### X(55) (similar to caustic), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=55)
       
-$$
-a_{55}= {\frac{a\left(\delta-a^{2}
-      		\right)}{a^{2}+a^{2}}},\;\;
+$$a_{55}= {\frac{a\left(\delta-b^{2}
+      		\right)}{a^{2}+b^{2}}},\;\;
        b_{55} =  { \frac{b \left( a^{2}-\delta
-       	\right)}{a^{2}+a^{2}}}    
-$$    
+       	\right)}{a^{2}+b^{2}}}$$    
 
 ### X(56), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=56)
 
-$$
-a_{56}=  \frac{-w'_{56}(a,b) + w''_{56}(a,b) \delta}{  w_{56}(a,b) },\;\;\;   
-b_{56}= \frac{ w'_{56}(b,a) - w''_{56}(b,a) \delta}{  w_{56}(b,a) } 
-$$
+$$a_{56}=  \frac{-w'_{56}(a,b) + w''_{56}(a,b) \delta}{  w_{56}(a,b) },\;\;\;   
+b_{56}= \frac{ w'_{56}(b,a) - w''_{56}(b,a) \delta}{  w_{56}(b,a) } $$
 
-$$
-\begin{align*}
+$$\begin{align*}
 w'_{56}(u,v)=&v^2( {u}^{4}-{u}^{2}{v}^{2}+2\,{v}^{4}),\;\;\;w''_{56}(u,v)= 5\,{u}^{4}-5\,{u}^{2}{v}^{2}+2\,{v}^{4}  \\
 w_{56}(u,v)=&u(5\,{u}^{4}-6\,{u}^{2}{v}^{2}+5\,{v}^{4} ) 
 \end{align*}
@@ -240,114 +199,86 @@ $$
 $$
 \left(a_{57},b_{57}\right)=k_{57}\left(a,b\right),\;\;   k_{57}=\frac{c^2}{\delta}
 %a_{57}=\frac{a (a^2- b^2)}{ \delta}, \;\;\;
-%b_{57}=\frac{b (a^2- b^2)}{ \delta}
-$$
+%b_{57}=\frac{b (a^2- b^2)}{ \delta}$$
 
 ### X(63) (similar to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=63)
 
-$$
-\left(a_{63},b_{63}\right)=k_{63}\left(a,b\right),\;\; k_{63}=\frac{c^2}{a^2+b^2}
+$$\left(a_{63},b_{63}\right)=k_{63}\left(a,b\right),\;\; k_{63}=\frac{c^2}{a^2+b^2}
 %a_{63}={\frac{a \left( a^{2}-a^{2} \right) }{a^{2}+a^{2}}},\;\;\;
-%b_{63}= {\frac{b \left( a^{2}-a^{2} \right) }{a^{2}+a^{2}}}
-$$
+%b_{63}= {\frac{b \left( a^{2}-a^{2} \right) }{a^{2}+a^{2}}}$$
 
 ### X(65), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=65)
 
-$$
-\begin{align*}
+$$\begin{align*}
 a_{65}=& \frac{w'_{65}(a,b) + w''_{65}(a,b) \delta}{  w_{65}(a,b)},\;\;\;
 b_{65}=\frac{-w'_{65}(b,a)- w''_{65}(b,a) \delta}{  w_{65}(b,a)}
-\end{align*}
-$$
+\end{align*}$$
 
-$$
-\begin{align*}
+$$\begin{align*}
 w'_{65}(u,v)=& {u}^{4}{v}^{2}+{u}^{2}{v}^{4}+2\,{v}^{6},\;\;\;
 w''_{65}(u,v)={u}^{4}-3\,{u}^{2}{v}^{2}-2\,{v}^{4}\\
 w_{65}(u,v)=&u\left( {u}^{2}-{v}^{2} \right) ^{2}
-\end{align*}
-$$
+\end{align*}$$
 
 ### X(72), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=72)
 
-$$
-\begin{align*}
+$$\begin{align*}
 a_{72}=& \frac{w'_{72}(a,b) - w''_{72}(a,b) \delta }{w_{72}(a,b)},\;\;\;
 b_{72}= \frac{-w'_{72}(b,a) + w''_{72}(b,a) \delta}{w_{72}(b,a) }
-\end{align*}
-$$
+\end{align*}$$
 
-$$
-w'_{72}(u,v)= {u}^{6}+2\,{u}^{2}{v}^{4}+{v}^{6},\;\;
+$$w'_{72}(u,v)= {u}^{6}+2\,{u}^{2}{v}^{4}+{v}^{6},\;\;
 w''_{72}(u,v)= (3\,{u}^{2}+{v}^{2}){v}^{2},\;\;
-w_{72}(u,v)= u\left(u^2-v^2 \right)^{2}
-$$
+w_{72}(u,v)= u\left(u^2-v^2 \right)^{2}$$
 
 ### X(78), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=78)
           
-$$
-a_{78}= \frac{w'_{78}(a,b) -w''_{78}(a,b) \delta }{w_{78}(a,b) },\;\;\;
-b_{78}=  \frac{-w'_{78}(b,a)+w''_{78}(b,a) \delta}{w_{78}(b,a)} 
-$$
+$$a_{78}= \frac{w'_{78}(a,b) -w''_{78}(a,b) \delta }{w_{78}(a,b) },\;\;\;
+b_{78}=  \frac{-w'_{78}(b,a)+w''_{78}(b,a) \delta}{w_{78}(b,a)}$$
 
-$$
-\begin{align*}
+$$\begin{align*}
 w'_{78}(u,v)=&5\,{u}^{6}-4\,{u}^{4}{v}^{2}+{u}^{2}{v}^{4}+2\,{v}^{6},\;\;\;w''_{78}(u,v)= 2\,{v}^{2} \left( {u}^{2}+{v}^{2}\right)\\
 w_{78}(u,v)=&u \left( 5\,{u}^{4}-6\,{v}^{2}{u}^{2}+5\,{v}^{4} \right)\
-\end{align*}
-$$
+\end{align*}$$
 
 ### X(79), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=79)
 
 
-$$
-a_{79}= \frac{-w'_{79}(a,b) + w''_{79}(a,b) \delta  }{w_{79}(a,b) }, \;\;\; 
+$$a_{79}= \frac{-w'_{79}(a,b) + w''_{79}(a,b) \delta  }{w_{79}(a,b) }, \;\;\; 
 b_{79}= \frac{  w'_{79}(b,a)- w''_{79}(b,a) \delta  }{  w_{79}(b,a)  }$$
 
-$$
-\begin{align*}
+$$\begin{align*}
 w'_{79}(u,v)=&{v}^{2}   11\,{u}^{4}+4\,{v}^{2}{u}^{2}+{v}^{4},\;\;\;w_{79}''(u,v)= \left( 3\,{u}^{4}+12\,{u}^{2}{v}^{2}+{v}^{4} \right)   \\
 w_{79}(u,v)=&u \left( u^2-v^2 \right) \left( 3\,{u}^{2}+5\,{v}^{2} \right)
-\end{align*}
-$$
+\end{align*}$$
 
 ### X(80), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=80)
       
-$$
-a_{80}={\frac{ \left( \delta-a^{2} 
-      		\right)  \left( a^{2}+a^{2} \right)}{a c^2}},\;\;\;
+$$a_{80}={\frac{ \left( \delta-b^{2} 
+      		\right)  \left( a^{2}+b^{2} \right)}{a c^2}},\;\;\;
 b_{80}={\frac{ \left( a^{2}-\delta
-      		\right)  \left( a^{2}+a^{2} \right)}{b c^2}}
-$$
+      		\right)  \left( a^{2}+b^{2} \right)}{b c^2}}$$
       
 ### X(84) (similar to rotated caustic), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=84)
 
-$$
-a_{84}=\frac{\left( a^{2}+\delta \right) c^2}{a^{3}},\;\;\;
-b_{84}=\frac{\left( a^{2}+\delta \right) c^2}{a^{3}}
-$$
+$$a_{84}=\frac{\left(b^{2}+\delta \right) c^2}{a^{3}},\;\;\;
+b_{84}=\frac{\left( a^{2}+\delta \right) c^2}{b^{3}}$$
   
 ### X(88) (identical to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=88)
       
-$$
-    a_{88}=a,\;\;\;b_{88}=b
-$$
+$$a_{88}=a,\;\;\;b_{88}=b$$
       
 ### X(90), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=90)
 
 
-$$
-a_{90}= \frac{ w'_{90}(a,b) +  w''_{90}(a,b)\delta   }{w_{90}(a,b)},\;\;\;
-b_{90}= \frac{w'_{90}(b,a)+w''_{90}(b,a) \delta  }{  w_{90}(b,a)}
-$$
+$$a_{90}= \frac{ w'_{90}(a,b) +  w''_{90}(a,b)\delta   }{w_{90}(a,b)},\;\;\;
+b_{90}= \frac{w'_{90}(b,a)+w''_{90}(b,a) \delta  }{  w_{90}(b,a)}$$
 
-$$
-\begin{align*}
+$$\begin{align*}
 w'_{90}(u,v)=&v^2(3u^2-v^2) (u^2-v^2),\;\;\;
 w''_{90}(u,v)=u^4-v^4 \\
 w_{90}(u,v)=& u \left( {u}^{4}+2\,{u}^{2}{v}^{2}-7\,{v}^{4} \right)
-\end{align*}
-$$
+\end{align*}$$
 
 
 ### X(100) (identical to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=100)
