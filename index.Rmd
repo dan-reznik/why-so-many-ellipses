@@ -301,13 +301,13 @@ Let the least-squares fit error be defined by:
 
 $$\text{err}^2(a_i,b_i)= \sum_{k=1}^M{\left[\left(\frac{x_k}{a_i}\right)^2+\left(\frac{y_k}{b_i}\right)^2-1\right]^2}$$
 
-The 29 centers with elliptic loci amongst the first 100 in Kimberling's Encyclopedia [@etc]. These are listed in ascending order of (negligible) fit error, $a/b=1.5$, $M=1500$. Columns $\hata,\hatb$ show the estimated semi-axes' lengths. Notice for $X_{100}$ and $X_{88}$ these are identical to $a,b$, since these points lie on the EB. 
+The 29 centers with elliptic loci amongst the first 100 in Kimberling's Encyclopedia [@etc]. These are listed in ascending order of (negligible) fit error, $a/b=1.5$, $M=1500$. Columns $\hat{a},\hat{b}$ show the estimated semi-axes' lengths. Notice for $X_{100}$ and $X_{88}$ these are identical to $a,b$, since these points lie on the EB. 
 
 
 $$
 \begin{array}{|c|c|c|c|c|}
 \hline
- \text{rank} &  X_i & \hata & \hatb & \sum{err{}^2} \\
+ \text{rank} &  X_i & \hat{a} & \hat{b} & \sum{err{}^2} \\
  \hline
  1 & 100 & 1.50 & 1.00 & 5.9\times 10^{-14} \\
  2 & 80 & 1.65 & 0.77 & 8.1\times 10^{-14} \\
