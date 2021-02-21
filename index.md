@@ -34,7 +34,7 @@ with $\delta=\sqrt{a^4-a^2b^2+b^4}$ and $c^2=a^2-b^2$.
 
 Recall the above is consistent with Cayley condition for the existence of a 3-periodic family interscribed between two confocal ellipses [@georgiev2012-poncelet], namely:
 
-$$\frac{a_c}{a}+\frac{b_c}{b}=1$$
+$$\frac{a_c}a+\frac{b_c}b=1$$
 
 # I: Semi-axes of the 29 elliptic loci
 
@@ -46,7 +46,7 @@ The reader is encouraged to visualize the loci for all of $X_1$ thru $X_{100}$ [
 
 ### X(1) and excenters, [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?sc=11.470&xn1=1&lc1=vtx&lc2=trilins&tr1=excentral&rot=90)
  
-$$a_1=\frac{\delta-b^{2}}{a},\;\;\;b_1=\frac{a^{2}-\delta}{b}$$
+$$a_1=\frac{\delta-b^{2}}a,\;\;\;b_1=\frac{a^{2}-\delta}b$$
 
 
 The locus of the excenters is an ellipse with axes [@garcia2019-incenter]:
@@ -158,7 +158,7 @@ w_{36}(u,v)=3u \left(u^2-v^2\right)$$
 
 ### X(40) (similar to rotated billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=40)
 
-$$a_{40}=\frac{c^2}{a},\;\;\;b_{40}=\frac{c^2}{b}$$
+$$a_{40}=\frac{c^2}a,\;\;\;b_{40}=\frac{c^2}b$$
 
 Additionally:
 
@@ -291,13 +291,13 @@ Let the least-squares fit error be defined by:
 
 $$\text{err}^2(a_i,b_i)= \sum_{k=1}^M{\left[\left(\frac{x_k}{a_i}\right)^2+\left(\frac{y_k}{b_i}\right)^2-1\right]^2}$$
 
-The 29 centers with elliptic loci amongst the first 100 in Kimberling's Encyclopedia [@etc]. These are listed in ascending order of (negligible) fit error, $a/b=1.5$, $M=1500$. Columns $\hat{a},\hat{b}$ show the estimated semi-axes' lengths. Notice for $X_{100}$ and $X_{88}$ these are identical to $a,b$, since these points lie on the EB. 
+The 29 centers with elliptic loci amongst the first 100 in Kimberling's Encyclopedia [@etc]. These are listed in ascending order of (negligible) fit error, $a/b=1.5$, $M=1500$. Columns $\hata,\hatb$ show the estimated semi-axes' lengths. Notice for $X_{100}$ and $X_{88}$ these are identical to $a,b$, since these points lie on the EB. 
 
 
 $$
 \begin{array}{|c|c|c|c|c|}
 \hline
- \text{rank} &  X_i & \hat{a} & \hat{b} & \sum{err{}^2} \\
+ \text{rank} &  X_i & \hata & \hatb & \sum{err{}^2} \\
  \hline
  1 & 100 & 1.50 & 1.00 & 5.9\times 10^{-14} \\
  2 & 80 & 1.65 & 0.77 & 8.1\times 10^{-14} \\
@@ -437,7 +437,7 @@ $X_k$, where $k$ is in: 104, 119, 140, 142, 144, 145, 149, 153, 162, 165, 190, 1
 
 # IV: Homothetic Pair
 
-There are 27 (resp. 4) triangle centers over 3-periodics in the homothetic pair whose centers describe ellipses (resp. circles). Their axes are given by:
+From $X_{1}$ to $X_{200}$, there are 27 (resp. 4) triangle centers over 3-periodics in the homothetic pair whose centers describe ellipses (resp. circles). Their axes are given by:
 
 ### X(3)
 
@@ -483,43 +483,43 @@ There are 27 (resp. 4) triangle centers over 3-periodics in the homothetic pair 
 
 ### X(20)
 
-\[ a_{20}= \frac{a^2-b^2}{a},\;\;\;b_{20}=\frac{a^2-b^2}{b} \]
+\[ a_{20}= \frac{a^2-b^2}a,\;\;\;b_{20}=\frac{a^2-b^2}b \]
 
 ### X(32)
 
-\[ a_{32}= \frac {a \left( a^2-b^2 \right)   \left( 3\,{a}^{2}+5\,{b}^{2} \right)}{2(3\,{a}^{4}+2\,{a}^{2}{b}^{2}+3\,{b}^{4})},\;\;\;
-   b_{32}= \frac {b \left( a^2-b^2 \right)   \left( 3\,{a}^{2}+5\,{b}^{2} \right)}{2(3\,{a}^{4}+2\,{a}^{2}{b}^{2}+3\,{b}^{4})} \]
+\[ a_{32}= \frac {a \left( a^2-b^2 \right)   \left( 3\,a^{2}+5\,b^{2} \right)}{2(3\,a^{4}+2\,a^{2}b^{2}+3\,b^{4})},\;\;\;
+   b_{32}= \frac {b \left( a^2-b^2 \right)   \left( 3\,a^{2}+5\,b^{2} \right)}{2(3\,a^{4}+2\,a^{2}b^{2}+3\,b^{4})} \]
 
 ### X(39)
 
-\[ a_{39}=\frac { \left( {a}^{2}-{b}^{2} \right) a}{2( {a}^{2}+3\,{b}^{2})},\;\;\;
-	b_{39}=\frac{ \left( {a}^{2}-{b}^{2} \right) b}{2(3 \,{a}^{2}+\,{b}^{2})}\]
+\[ a_{39}=\frac { \left( a^{2}-b^{2} \right) a}{2( a^{2}+3\,b^{2})},\;\;\;
+	b_{39}=\frac{ \left( a^{2}-b^{2} \right) b}{2(3 \,a^{2}+\,b^{2})}\]
 
 ### X(61)
 
-\[a_{61}= \frac {\left( a^2-b^2\right)\left( 3\,a-b	\right)}{2( 3a^{2}+2\,ab+3\,{b}^{2})},\;\;\;
-b_{61}= \frac { \left( a^2-b^2 \right)\left( a-3\,b \right)}{2(3\,{a}^{2}+2\,ab+3\,{b}^{2})}\]
+\[a_{61}= \frac {\left( a^2-b^2\right)\left( 3\,a-b	\right)}{2( 3a^{2}+2\,ab+3\,b^{2})},\;\;\;
+b_{61}= \frac { \left( a^2-b^2 \right)\left( a-3\,b \right)}{2(3\,a^{2}+2\,ab+3\,b^{2})}\]
 
 ### X(62)
 
-\[a_{62}=\,{\frac{\left( a^2-b^2\right)\left(3\,a+b\right)}{2(3\,{a}^{2}-2\,ab+3\,{b}^{2})}},\;\;\;
-b_{62}={\frac{ \left( a^2-b^2 \right)  \left( a+3b\right) }{2(3\,{a}^{2}-2\,ab+3\,{b}^{2})}}\]
+\[a_{62}=\,{\frac{\left( a^2-b^2\right)\left(3\,a+b\right)}{2(3\,a^{2}-2\,ab+3\,b^{2})}},\;\;\;
+b_{62}={\frac{ \left( a^2-b^2 \right)  \left( a+3b\right) }{2(3\,a^{2}-2\,ab+3\,b^{2})}}\]
 
 ### X(69)
 
-\[a_{69}={\frac { \left( a^2-b^2 \right)a}{{a}^{2}+{b}^{2}}},\;\;\;
-b_{69}=\frac{\left( a^2-b^2 \right)b}{{a}^{2}+{b}^{2}} \]
+\[a_{69}={\frac { \left( a^2-b^2 \right)a}{a^{2}+b^{2}}},\;\;\;
+b_{69}=\frac{\left( a^2-b^2 \right)b}{a^{2}+b^{2}} \]
 				
 				
 ### X(76)
 
-\[ a_{76}=\frac{\left( a^2-b^2 \right)a}{{a}^{2}+3{b}^{2}},\;\;\;
-b_{76}= \frac{ \left( a^2-b^2 \right)b}{3{a}^{2}+{b}^{2}} \]
+\[ a_{76}=\frac{\left( a^2-b^2 \right)a}{a^{2}+3b^{2}},\;\;\;
+b_{76}= \frac{ \left( a^2-b^2 \right)b}{3a^{2}+b^{2}} \]
 
 ### X(83)
 
-\[a_{83} = \frac { \left( a^2-b^2 \right) a}{5{a}^{2}+3{b}^{2}},\;\;\;
-b_{83} = \frac{ \left( a^2-b^2 \right) b}{3{a}^{2}+5{b}^{2}} \]
+\[a_{83} = \frac { \left( a^2-b^2 \right) a}{5a^{2}+3b^{2}},\;\;\;
+b_{83} = \frac{ \left( a^2-b^2 \right) b}{3a^{2}+5b^{2}} \]
 
 ### X(98)
 
@@ -535,7 +535,7 @@ b_{83} = \frac{ \left( a^2-b^2 \right) b}{3{a}^{2}+5{b}^{2}} \]
 
 ### X(115)
 
-\[ a_{115}= \frac{a }{2},\;\;\;b_{115}= \frac{b}{2} \]
+\[ a_{115}= \frac{a }{2},\;\;\;b_{115}= \fracb{2} \]
 
 ### X(140)
 
@@ -547,11 +547,11 @@ b_{83} = \frac{ \left( a^2-b^2 \right) b}{3{a}^{2}+5{b}^{2}} \]
 
 ### X(147)
 
-\[ a_{147}=\frac{a^2+b^2}{a},\;\;\;b_{147}= \frac{a^2+b^2}{b} \]
+\[ a_{147}=\frac{a^2+b^2}a,\;\;\;b_{147}= \frac{a^2+b^2}b \]
 
 ### X(148)
 
-\[ 	a_{148}=2{a},\;\;\;b_{148}=2b \]
+\[ 	a_{148}=2a,\;\;\;b_{148}=2b \]
 
 ### X(182)
 
