@@ -23,8 +23,7 @@ bibliography: [references.bib]
 
 
 
-This page contains information supplementary to [@garcia2020-ellipses]. Specifically, semi-axes and fit errors for the 29 triangle centers within the first 100 in [@etc] whose loci are ellipses,
-over the family of 3-periodics in the elliptic billiard.
+This page contains information supplementary to [@garcia2020-ellipses]. Specifically, semi-axes and fit errors for the 29 triangle centers within the first 100 in [@etc] whose loci are ellipses, over the family of 3-periodics in the elliptic billiard. Additionally, we include expressions for the semi-axes of elliptic loci under the *homothetic* family.
 
 The following explicit expressions were given for the semi-axes $a_c,b_c$ of the $N=3$ confocal caustic [@garcia2019-incenter]:
 
@@ -435,6 +434,149 @@ $$
 From $X_{101}$ thru $X_{200}$, the locus of the following 13 centers are ellipses:
 
 $X_k$, where $k$ is in: 104, 119, 140, 142, 144, 145, 149, 153, 162, 165, 190, 191, 200.
+
+# IV: Homothetic Pair
+
+There are 27 (resp. 4) triangle centers over 3-periodics in the homothetic pair whose centers describe ellipses (resp. circles). Their axes are given by:
+
+### X(3)
+
+\[ a_3= \frac{a^2-b^2}{4a},\;\;\;b_3=\frac{a^2-b^2}{4b} \]
+
+### X(4)
+
+\[ a_4= \frac{a^2-b^2}{2a},\;\;\;b_4=\frac{a^2-b^2}{2b} \]
+
+### X(5)
+
+\[ a_5= \frac{a^2-b^2}{8a},\;\;\;b_5=\frac{a^2-b^2}{8b} \]
+
+### X(6)
+
+\[ a_6= \frac{a(a^2-b^2)}{2(a^2+b^2)},\;\;\;b_6=\frac{b(a^2-b^2)}{2(a^2+b^2)} \]
+
+### X(13)
+
+\[ r_{13}= \frac{a-b}{2} \]
+
+### X(14)
+
+\[ r_{14}= \frac{a+b}{2}\]
+
+### X(15)
+
+\[ r_{15}= \frac{(a-b)^2}{2(a+b)} \]
+
+### X(16)
+
+\[ r_{16}= \frac{(a+b)^2}{2(a-b)} \]
+
+**Note:** see the four amazing circular loci of $X_k$, $k=$13, 14, 15, 16 together [here](https://bit.ly/3bhA4dK).
+
+### X(17)
+
+\[ 	a_{17}=\frac{a^2-b^2}{2(a+3b)},\;\;\;b_{17}= \frac{a^2-b^2}{2(3a+b)} \]
+
+### X(18)
+
+\[ a_{18}=\frac{a^2-b^2}{2(a-3b)},\;\;\;b_{18}= \frac{a^2-b^2}{2(3a-b)} \]
+
+### X(20)
+
+\[ a_{20}= \frac{a^2-b^2}{a},\;\;\;b_{20}=\frac{a^2-b^2}{b} \]
+
+### X(32)
+
+\[ a_{32}= \frac {a \left( a^2-b^2 \right)   \left( 3\,{a}^{2}+5\,{b}^{2} \right)}{2(3\,{a}^{4}+2\,{a}^{2}{b}^{2}+3\,{b}^{4})},\;\;\;
+   b_{32}= \frac {b \left( a^2-b^2 \right)   \left( 3\,{a}^{2}+5\,{b}^{2} \right)}{2(3\,{a}^{4}+2\,{a}^{2}{b}^{2}+3\,{b}^{4})} \]
+
+### X(39)
+
+\[ a_{39}=\frac { \left( {a}^{2}-{b}^{2} \right) a}{2( {a}^{2}+3\,{b}^{2})},\;\;\;
+	b_{39}=\frac{ \left( {a}^{2}-{b}^{2} \right) b}{2(3 \,{a}^{2}+\,{b}^{2})}\]
+
+### X(61)
+
+\[a_{61}= \frac {\left( a^2-b^2\right)\left( 3\,a-b	\right)}{2( 3a^{2}+2\,ab+3\,{b}^{2})},\;\;\;
+b_{61}= \frac { \left( a^2-b^2 \right)\left( a-3\,b \right)}{2(3\,{a}^{2}+2\,ab+3\,{b}^{2})}\]
+
+### X(62)
+
+\[a_{62}=\,{\frac{\left( a^2-b^2\right)\left(3\,a+b\right)}{2(3\,{a}^{2}-2\,ab+3\,{b}^{2})}},\;\;\;
+b_{62}={\frac{ \left( a^2-b^2 \right)  \left( a+3b\right) }{2(3\,{a}^{2}-2\,ab+3\,{b}^{2})}}\]
+
+### X(69)
+
+\[a_{69}={\frac { \left( a^2-b^2 \right)a}{{a}^{2}+{b}^{2}}},\;\;\;
+b_{69}=\frac{\left( a^2-b^2 \right)b}{{a}^{2}+{b}^{2}} \]
+				
+				
+### X(76)
+
+\[ a_{76}=\frac{\left( a^2-b^2 \right)a}{{a}^{2}+3{b}^{2}},\;\;\;
+b_{76}= \frac{ \left( a^2-b^2 \right)b}{3{a}^{2}+{b}^{2}} \]
+
+### X(83)
+
+\[a_{83} = \frac { \left( a^2-b^2 \right) a}{5{a}^{2}+3{b}^{2}},\;\;\;
+b_{83} = \frac{ \left( a^2-b^2 \right) b}{3{a}^{2}+5{b}^{2}} \]
+
+### X(98)
+
+\[ a_{98}= \frac{a^2+b^2}{2a},\;\;\;b_{98}= \frac{a^2+b^2}{2b} \]
+
+### X(99)
+
+\[ a_{99}=a,\;\;\;b_{99}=b \]
+
+### X(114)
+
+\[ a_{114}= \frac{a^2+b^2}{4a},\;\;\;b_{114}= \frac{a^2+b^2}{4b} \]
+
+### X(115)
+
+\[ a_{115}= \frac{a }{2},\;\;\;b_{115}= \frac{b}{2} \]
+
+### X(140)
+
+\[ a_{140}= \frac{a^2-b^2}{16a}, 	b_{140}= \frac{a^2-b^2}{16b} \]
+
+### X(141)
+
+\[ a_{141}=\frac{(a^2-b^2)a}{4(a^2+b^2)}\;\;\;b_{141}= \frac{(a^2-b^2)b}{4(a^2+b^2)} \]
+
+### X(147)
+
+\[ a_{147}=\frac{a^2+b^2}{a},\;\;\;b_{147}= \frac{a^2+b^2}{b} \]
+
+### X(148)
+
+\[ 	a_{148}=2{a},\;\;\;b_{148}=2b \]
+
+### X(182)
+
+\[ 	a_{182}=\frac{(a^2-b^2)^2}{8a(a^2+b^2)},\;\;\;
+b_{182}= \frac{(a^2-b^2)^2}{8b(a^2+b^2)} \]
+
+### X(187)
+
+\[ 	a_{187}= \frac{a(a^2+3b^2)}{2(a^2-b^2)},\;\;\;
+b_{187}=  \frac{b(3a^2+b^2)}{2(a^2-b^2)} \]
+
+### X(190)
+
+\[ 	a_{190}= a,\;\;\;b_{190}=b \]
+
+### X(193)
+
+\[ 	a_{193}=\frac{2(a^2-b^2)a}{a^2+b^2},\;\;\;
+		b_{193}=\frac{2(a^2-b^2)b}{a^2+b^2} \]
+
+### X(194)
+
+\[  a_{194}=\frac{2(a^2-b^2)a}{a^2+3b^2},\;\;\;
+b_{194}=\frac{2(a^2-b^2)b}{3a^2+b^2} \]
+
 
 # Contact
 
