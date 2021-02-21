@@ -23,42 +23,49 @@ bibliography: [references.bib]
 
 
 
-This page contains information supplementary to [@garcia2020-ellipses]. Specifically, semi-axes and fit errors for the 29 triangle centers within the first 100 in [@etc] whose loci are ellipses, over the family of 3-periodics in the elliptic billiard. Additionally, we include expressions for the semi-axes of elliptic loci under the *homothetic* family.
+This page contains information supplementary to [@garcia2020-ellipses]. We consider Poncelet 3-periodic families interscribed in a pair of ellipses. Let $a,b$ (resp. $a_c,b_c$) be the semi-axes of the external (resp. internal) ellipse. The Cayley condition for the pair to admit a 3-periodic family is [@georgiev2012-poncelet]:
+
+$$\frac{a_c}a+\frac{b_c}b=1$$
+
+We study the loci of triangle centers [@etc] over Poncelet 3-periodic families and report those we are ellipses. Initially, these were found via interactive experiments with Mathematica [@mathematica-v10]. Some were then subsequently proved with rigorous mathematical techniques [@olga14],[@sergei2014-circumcenter-of-mass],[@sergei2016-com],[@garcia2019-incenter],[@fierobe2019]. The remainder were then proved by a hybrid method presented in [@garcia2020-ellipses].
+
+For space reasons, we only consider triangle centers amongst the first 200 in [@etc], over both the confocal (elliptic billiard) and homothetic pair. Appendix A tabulates fit errors for loci in the confocal family, which should be negligible when a given locus is an ellipse.
+
+The family of 3-Periodics in few classic ellipse pairs can be viewed [here](https://youtu.be/8hkeksAsx0E). All loci herein can be visualized with our [interactive app](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/); illustrations and documentation are available on this [webpage](https://dan-reznik.github.io/ellipse-mounted-triangles/).
+
+# I. Confocal Family: Semi-axes of elliptic loci
+
+## Preliminaries 
 
 The following explicit expressions were given for the semi-axes $a_c,b_c$ of the $N=3$ confocal caustic [@garcia2019-incenter]:
 
 $$a_c=\frac{a\left(\delta-a^{2}\right)}{c^2},\;\;\;b_c=\frac{b\left(a^{2}-\delta\right)}{c^2}$$
-
 with $\delta=\sqrt{a^4-a^2b^2+b^4}$ and $c^2=a^2-b^2$.
 
-
-Recall the above is consistent with Cayley condition for the existence of a 3-periodic family interscribed between two confocal ellipses [@georgiev2012-poncelet], namely:
-
-$$\frac{a_c}a+\frac{b_c}b=1$$
-
-# I: Semi-axes of the 29 elliptic loci
-
-Below we provide explicit expressions for the semi-axes $a_i,b_i$ of said loci, i.e., let the locus of center $X_i$ be described as:
+Below we provide explicit expressions for the semi-axes $a_i,b_i$ of loci, i.e., let the locus of center $X_i$ be described as:
 
 $$\frac{x^2}{a_{i}^2}+\frac{y^2}{b_{i}^2}=1$$
 
-The reader is encouraged to visualize the loci for all of $X_1$ thru $X_{100}$ [here](https://dan-reznik.github.io/billiard-loci/loci.html). Additionally, one can view them with our interactive [app](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/). 
+A gallery of loci for all of $X_1$ thru $X_{100}$ appears [here](https://dan-reznik.github.io/billiard-loci/loci.html).
 
 ### X(1) and excenters, [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?sc=11.470&xn1=1&lc1=vtx&lc2=trilins&tr1=excentral&rot=90)
  
 $$a_1=\frac{\delta-b^{2}}a,\;\;\;b_1=\frac{a^{2}-\delta}b$$
 
-
 The locus of the excenters is an ellipse with axes [@garcia2019-incenter]:
  
-$$ a_e=\frac{b^{2}+\delta}a,\;\;\; 
+$$a_e=\frac{b^{2}+\delta}a,\;\;\; 
  b_e=\frac{a^{2}+\delta}b$$
  
 Notice it is similar to the $X_1$ locus, i.e., $a_1/b_1=b_e/a_e$. 
 
+**Note:** The ellipticity of $X_1$ for confocals was proven in [@olga14] and [@garcia2019-incenter].
+
 ### X(2) (similar to billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=2)
 
 $$\left(a_2,b_2\right)=k_2\left(a,b\right),\;\textrm{where}\; k_2=\frac{2\delta -a^{2}-b^{2}}{3c^2}$$
+
+**Note:** The ellipticity of $X_2$ for any Poncelet family was proven in [@sergei2016-com], [@garcia2019-incenter]. 
 
 ### X(3) (similar to rotated caustic), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=3)
  
@@ -68,6 +75,8 @@ $$
 $$
 
 Additionally, when $a/b= \frac{\sqrt{2\sqrt{33}+2}}{2} \;{\simeq}\;1.836$, $b_3=b$, i.e., the top and bottom vertices of the locus of $X_3$ coincide with the billiard's.
+
+**Note:** The ellipticity of $X_3$ for confocals was proven in [@garcia2019-incenter] and [@fierobe2019]. In [@sergei2014-circumcenter-of-mass], one consideres the ``circumcenter-of-mass'' which generalizes this result for any $N{\geq}3$ Poncelet family.
 
 ### X(4) (similar to rotated billiard), [see it](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/?xn1=4)
 
@@ -284,8 +293,140 @@ w_{90}(u,v)=& u \left( {u}^{4}+2\,{u}^{2}{v}^{2}-7\,{v}^{4} \right)
 
 $$a_{100}=a,\;\;\;b_{100}=b$$
 
+**Note:** From $X_{101}$ thru $X_{200}$, also elliptic are the loci of $X_k$ $k$in 104, 119, 140, 142, 144, 145, 149, 153, 162, 165, 190, 191, 200.
 
-# II: Centers sorted by fit error
+
+# II. Homothetic Family: Locus Semi-Axes
+
+Consider 3-periodics in an ellipse pair such that $a_c=a/2$ and $b_c=b/2$. From $X_{1}$ to $X_{200}$, the loci of 27 (resp. 4) triangle centers are ellipses (resp. circles). Their axes are given by:
+
+### X(3)
+
+\[ a_3= \frac{c^2}{4a},\;\;\;b_3=\frac{c^2}{4b} \]
+
+### X(4)
+
+\[ a_4= \frac{c^2}{2a},\;\;\;b_4=\frac{c^2}{2b} \]
+
+### X(5)
+
+\[ a_5= \frac{c^2}{8a},\;\;\;b_5=\frac{c^2}{8b} \]
+
+### X(6)
+
+\[ a_6= \frac{ac^2}{2(a^2+b^2)},\;\;\;b_6=\frac{bc^2}{2(a^2+b^2)} \]
+
+### X(13), X(14), X(15), X(16): all circles! [see it](https://bit.ly/3bhA4dK) and [video](https://youtu.be/ZwTfwaJJitE)
+
+\[ r_{13}= \frac{a-b}{2},\;\;\;r_{14}= \frac{a+b}{2},\;\;\;r_{15}= \frac{(a-b)^2}{2(a+b)},\;\;\;r_{16}= \frac{(a+b)^2}{2(a-b)} \]
+
+### X(17)
+
+\[ 	a_{17}=\frac{c^2}{2(a+3b)},\;\;\;b_{17}= \frac{c^2}{2(3a+b)} \]
+
+### X(18)
+
+\[ a_{18}=\frac{c^2}{2(a-3b)},\;\;\;b_{18}= \frac{c^2}{2(3a-b)} \]
+
+### X(20)
+
+\[ a_{20}= \frac{c^2}a,\;\;\;b_{20}=\frac{c^2}b \]
+
+### X(32)
+
+\[ a_{32}= \frac {a \left( c^2 \right)   \left( 3\,a^{2}+5\,b^{2} \right)}{2(3\,a^{4}+2\,a^{2}b^{2}+3\,b^{4})},\;\;\;
+   b_{32}= \frac {b \left( c^2 \right)   \left( 3\,a^{2}+5\,b^{2} \right)}{2(3\,a^{4}+2\,a^{2}b^{2}+3\,b^{4})} \]
+
+### X(39)
+
+\[ a_{39}=\frac { \left( a^{2}-b^{2} \right) a}{2( a^{2}+3\,b^{2})},\;\;\;
+	b_{39}=\frac{ \left( a^{2}-b^{2} \right) b}{2(3 \,a^{2}+\,b^{2})}\]
+
+### X(61)
+
+\[a_{61}= \frac {\left( c^2\right)\left( 3\,a-b	\right)}{2( 3a^{2}+2\,ab+3\,b^{2})},\;\;\;
+b_{61}= \frac { \left( c^2 \right)\left( a-3\,b \right)}{2(3\,a^{2}+2\,ab+3\,b^{2})}\]
+
+### X(62)
+
+\[a_{62}=\,{\frac{\left( c^2\right)\left(3\,a+b\right)}{2(3\,a^{2}-2\,ab+3\,b^{2})}},\;\;\;
+b_{62}={\frac{ \left( c^2 \right)  \left( a+3b\right) }{2(3\,a^{2}-2\,ab+3\,b^{2})}}\]
+
+### X(69)
+
+\[a_{69}={\frac { \left( c^2 \right)a}{a^{2}+b^{2}}},\;\;\;
+b_{69}=\frac{\left( c^2 \right)b}{a^{2}+b^{2}} \]
+				
+				
+### X(76)
+
+\[ a_{76}=\frac{\left( c^2 \right)a}{a^{2}+3b^{2}},\;\;\;
+b_{76}= \frac{ \left( c^2 \right)b}{3a^{2}+b^{2}} \]
+
+### X(83)
+
+\[a_{83} = \frac { \left( c^2 \right) a}{5a^{2}+3b^{2}},\;\;\;
+b_{83} = \frac{ \left( c^2 \right) b}{3a^{2}+5b^{2}} \]
+
+### X(98)
+
+\[ a_{98}= \frac{a^2+b^2}{2a},\;\;\;b_{98}= \frac{a^2+b^2}{2b} \]
+
+### X(99)
+
+\[ a_{99}=a,\;\;\;b_{99}=b \]
+
+### X(114)
+
+\[ a_{114}= \frac{a^2+b^2}{4a},\;\;\;b_{114}= \frac{a^2+b^2}{4b} \]
+
+### X(115)
+
+\[ a_{115}= \frac{a }{2},\;\;\;b_{115}= \frac{b}{2} \]
+
+### X(140)
+
+\[ a_{140}= \frac{c^2}{16a},\;\;\;b_{140}= \frac{c^2}{16b} \]
+
+### X(141)
+
+\[ a_{141}=\frac{c^2 a}{4(a^2+b^2)}\;\;\;b_{141}= \frac{c^2 b}{4(a^2+b^2)} \]
+
+### X(147)
+
+\[ a_{147}=\frac{a^2+b^2}a,\;\;\;b_{147}= \frac{a^2+b^2}b \]
+
+### X(148)
+
+\[ 	a_{148}=2a,\;\;\;b_{148}=2b \]
+
+### X(182)
+
+\[ 	a_{182}=\frac{c^4}{8a(a^2+b^2)},\;\;\;
+b_{182}= \frac{c^4}{8b(a^2+b^2)} \]
+
+### X(187)
+
+\[ 	a_{187}= \frac{a(a^2+3b^2)}{2c^2},\;\;\;
+b_{187}=  \frac{b(3a^2+b^2)}{2c^2} \]
+
+### X(190)
+
+\[ 	a_{190}= a,\;\;\;b_{190}=b \]
+
+### X(193)
+
+\[ 	a_{193}=\frac{2c^2 a}{a^2+b^2},\;\;\;
+		b_{193}=\frac{2c^2 b}{a^2+b^2} \]
+
+### X(194)
+
+\[  a_{194}=\frac{2c^2 a}{a^2+3b^2},\;\;\;
+b_{194}=\frac{2c^2 b}{3a^2+b^2} \]
+
+
+
+# Appendix A: Confocal Family: elliptic fit error
 
 Let the least-squares fit error be defined by:
 
@@ -428,154 +569,6 @@ $$
 $$
 </div>
 </div>
-
-# III: X(101)--X(200)
-
-From $X_{101}$ thru $X_{200}$, the locus of the following 13 centers are ellipses:
-
-$X_k$, where $k$ is in: 104, 119, 140, 142, 144, 145, 149, 153, 162, 165, 190, 191, 200.
-
-# IV: Homothetic Pair
-
-From $X_{1}$ to $X_{200}$, there are 27 (resp. 4) triangle centers over 3-periodics in the homothetic pair whose centers describe ellipses (resp. circles). Their axes are given by:
-
-### X(3)
-
-\[ a_3= \frac{a^2-b^2}{4a},\;\;\;b_3=\frac{a^2-b^2}{4b} \]
-
-### X(4)
-
-\[ a_4= \frac{a^2-b^2}{2a},\;\;\;b_4=\frac{a^2-b^2}{2b} \]
-
-### X(5)
-
-\[ a_5= \frac{a^2-b^2}{8a},\;\;\;b_5=\frac{a^2-b^2}{8b} \]
-
-### X(6)
-
-\[ a_6= \frac{a(a^2-b^2)}{2(a^2+b^2)},\;\;\;b_6=\frac{b(a^2-b^2)}{2(a^2+b^2)} \]
-
-### X(13)
-
-\[ r_{13}= \frac{a-b}{2} \]
-
-### X(14)
-
-\[ r_{14}= \frac{a+b}{2}\]
-
-### X(15)
-
-\[ r_{15}= \frac{(a-b)^2}{2(a+b)} \]
-
-### X(16)
-
-\[ r_{16}= \frac{(a+b)^2}{2(a-b)} \]
-
-**Note:** see the four amazing circular loci of $X_k$, $k=$13, 14, 15, 16 together [here](https://bit.ly/3bhA4dK).
-
-### X(17)
-
-\[ 	a_{17}=\frac{a^2-b^2}{2(a+3b)},\;\;\;b_{17}= \frac{a^2-b^2}{2(3a+b)} \]
-
-### X(18)
-
-\[ a_{18}=\frac{a^2-b^2}{2(a-3b)},\;\;\;b_{18}= \frac{a^2-b^2}{2(3a-b)} \]
-
-### X(20)
-
-\[ a_{20}= \frac{a^2-b^2}a,\;\;\;b_{20}=\frac{a^2-b^2}b \]
-
-### X(32)
-
-\[ a_{32}= \frac {a \left( a^2-b^2 \right)   \left( 3\,a^{2}+5\,b^{2} \right)}{2(3\,a^{4}+2\,a^{2}b^{2}+3\,b^{4})},\;\;\;
-   b_{32}= \frac {b \left( a^2-b^2 \right)   \left( 3\,a^{2}+5\,b^{2} \right)}{2(3\,a^{4}+2\,a^{2}b^{2}+3\,b^{4})} \]
-
-### X(39)
-
-\[ a_{39}=\frac { \left( a^{2}-b^{2} \right) a}{2( a^{2}+3\,b^{2})},\;\;\;
-	b_{39}=\frac{ \left( a^{2}-b^{2} \right) b}{2(3 \,a^{2}+\,b^{2})}\]
-
-### X(61)
-
-\[a_{61}= \frac {\left( a^2-b^2\right)\left( 3\,a-b	\right)}{2( 3a^{2}+2\,ab+3\,b^{2})},\;\;\;
-b_{61}= \frac { \left( a^2-b^2 \right)\left( a-3\,b \right)}{2(3\,a^{2}+2\,ab+3\,b^{2})}\]
-
-### X(62)
-
-\[a_{62}=\,{\frac{\left( a^2-b^2\right)\left(3\,a+b\right)}{2(3\,a^{2}-2\,ab+3\,b^{2})}},\;\;\;
-b_{62}={\frac{ \left( a^2-b^2 \right)  \left( a+3b\right) }{2(3\,a^{2}-2\,ab+3\,b^{2})}}\]
-
-### X(69)
-
-\[a_{69}={\frac { \left( a^2-b^2 \right)a}{a^{2}+b^{2}}},\;\;\;
-b_{69}=\frac{\left( a^2-b^2 \right)b}{a^{2}+b^{2}} \]
-				
-				
-### X(76)
-
-\[ a_{76}=\frac{\left( a^2-b^2 \right)a}{a^{2}+3b^{2}},\;\;\;
-b_{76}= \frac{ \left( a^2-b^2 \right)b}{3a^{2}+b^{2}} \]
-
-### X(83)
-
-\[a_{83} = \frac { \left( a^2-b^2 \right) a}{5a^{2}+3b^{2}},\;\;\;
-b_{83} = \frac{ \left( a^2-b^2 \right) b}{3a^{2}+5b^{2}} \]
-
-### X(98)
-
-\[ a_{98}= \frac{a^2+b^2}{2a},\;\;\;b_{98}= \frac{a^2+b^2}{2b} \]
-
-### X(99)
-
-\[ a_{99}=a,\;\;\;b_{99}=b \]
-
-### X(114)
-
-\[ a_{114}= \frac{a^2+b^2}{4a},\;\;\;b_{114}= \frac{a^2+b^2}{4b} \]
-
-### X(115)
-
-\[ a_{115}= \frac{a }{2},\;\;\;b_{115}= \fracb{2} \]
-
-### X(140)
-
-\[ a_{140}= \frac{a^2-b^2}{16a}, 	b_{140}= \frac{a^2-b^2}{16b} \]
-
-### X(141)
-
-\[ a_{141}=\frac{(a^2-b^2)a}{4(a^2+b^2)}\;\;\;b_{141}= \frac{(a^2-b^2)b}{4(a^2+b^2)} \]
-
-### X(147)
-
-\[ a_{147}=\frac{a^2+b^2}a,\;\;\;b_{147}= \frac{a^2+b^2}b \]
-
-### X(148)
-
-\[ 	a_{148}=2a,\;\;\;b_{148}=2b \]
-
-### X(182)
-
-\[ 	a_{182}=\frac{(a^2-b^2)^2}{8a(a^2+b^2)},\;\;\;
-b_{182}= \frac{(a^2-b^2)^2}{8b(a^2+b^2)} \]
-
-### X(187)
-
-\[ 	a_{187}= \frac{a(a^2+3b^2)}{2(a^2-b^2)},\;\;\;
-b_{187}=  \frac{b(3a^2+b^2)}{2(a^2-b^2)} \]
-
-### X(190)
-
-\[ 	a_{190}= a,\;\;\;b_{190}=b \]
-
-### X(193)
-
-\[ 	a_{193}=\frac{2(a^2-b^2)a}{a^2+b^2},\;\;\;
-		b_{193}=\frac{2(a^2-b^2)b}{a^2+b^2} \]
-
-### X(194)
-
-\[  a_{194}=\frac{2(a^2-b^2)a}{a^2+3b^2},\;\;\;
-b_{194}=\frac{2(a^2-b^2)b}{3a^2+b^2} \]
 
 
 # Contact
