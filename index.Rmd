@@ -33,15 +33,15 @@ knitr::opts_chunk$set(
 )
 ```
 
-This page contains information supplementary to [@garcia2020-ellipses]. We consider Poncelet 3-periodic families interscribed in a pair of ellipses. Let $a,b$ (resp. $a_c,b_c$) be the semi-axes of the external (resp. internal) ellipse. The Cayley condition for the pair to admit a 3-periodic family is [@georgiev2012-poncelet]:
+This page contains information supplementary to [@garcia2020-ellipses]. We consider Poncelet 3-periodic families interscribed in a pair of ellipses $\mathcal{E}$ and $\mathcal{E}_c$ with semiaxes $a,b$  and $a_c,b_c$, respectively. The Cayley condition for the pair to admit a Poncelet 3-periodic family is [@georgiev2012-poncelet]:
 
 $$\frac{a_c}a+\frac{b_c}b=1$$
 
-We study the loci of triangle centers [@etc] over Poncelet 3-periodic families and report those we are ellipses. Initially, these were found via interactive experiments with Mathematica [@mathematica-v10]. Some were then subsequently proved with rigorous mathematical techniques [@olga14],[@sergei2014-circumcenter-of-mass],[@sergei2016-com],[@garcia2019-incenter],[@fierobe2019]. The remainder were then proved by a hybrid method presented in [@garcia2020-ellipses].
+Below we report on triangle centers on [@etc] whose loci over Poncelet 3-periodics is an ellipse. These are typically first detected numerically and then proven rigorously, e.g., [@olga14],[@sergei2014-circumcenter-of-mass],[@sergei2016-com],[@garcia2019-incenter],[@fierobe2019].
 
-For space reasons, we only consider triangle centers amongst the first 200 in [@etc], over both the confocal (elliptic billiard) and homothetic pair. Appendix A tabulates fit errors for loci in the confocal family, which should be negligible when a given locus is an ellipse.
+Here we focus on first 200 triangle centers on [@etc]. We consider 3-periodic families in the confocal (elliptic billiard) and homothetic pair. Appendix A tabulates fit errors for loci in the confocal family, which should be negligible when a given locus is an ellipse.
 
-The family of 3-Periodics in few classic ellipse pairs can be viewed [here](https://youtu.be/8hkeksAsx0E). All loci herein can be visualized with our [interactive app](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/); illustrations and documentation are available on this [webpage](https://dan-reznik.github.io/ellipse-mounted-triangles/).
+The family of 3-Periodics in some classic ellipse pairs can be viewed [here](https://youtu.be/8hkeksAsx0E). All loci herein can be visualized with our [interactive app](https://dan-reznik.github.io/ellipse-mounted-loci-p5js/); illustrations and documentation are available on this [webpage](https://dan-reznik.github.io/ellipse-mounted-triangles/).
 
 # I. Confocal Family: Semi-axes of elliptic loci
 
