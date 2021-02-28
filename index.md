@@ -39,7 +39,7 @@ The family of 3-Periodics in some classic ellipse pairs can be viewed [here](htt
 
 The following explicit expressions were given for the semi-axes $a_c,b_c$ of the $N=3$ confocal caustic [@garcia2019-incenter]:
 
-$$a_c=\frac{a\left(\delta-a^{2}\right)}{c^2},\;\;\;b_c=\frac{b\left(a^{2}-\delta\right)}{c^2}$$
+$$a_c=\frac{a\left(\delta-b^{2}\right)}{c^2},\;\;\;b_c=\frac{b\left(a^{2}-\delta\right)}{c^2}$$
 with $\delta=\sqrt{a^4-a^2b^2+b^4}$ and $c^2=a^2-b^2$.
 
 Below we provide explicit expressions for the semi-axes $a_i,b_i$ of loci, i.e., let the locus of center $X_i$ be described as:
